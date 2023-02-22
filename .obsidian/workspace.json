@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "3cdcdb249c6a6ecd",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7faddf4c71ecd93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78d919353f5504fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XiaoYi/JavaGuide/Java/Java基础面试题总结.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70bc22ca0c673cf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XiaoYi/JavaGuide/Java/Java基础面试题总结.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a9c8543e797b220",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XiaoYi/JavaGuide/框架/Spring常见面试题总结.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1427b767f5f70111",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5ae89f1aa5f41f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "621aa3ae30e0b848",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "387083ec27f889b4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b9fb568359fad1aa",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8254caa98e20b3e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "762ef14ed2389d42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20ed30f12abbf707",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "XiaoYi/JavaGuide/框架/Spring常见面试题总结.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "98793d940e63e5e8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "XiaoYi/JavaGuide/框架/Spring常见面试题总结.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2489c41ccda9c3cb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0702fe9f15786122",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "XiaoYi/JavaGuide/框架/Spring常见面试题总结.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2a9c8543e797b220",
+  "lastOpenFiles": [
+    "XiaoYi/JavaGuide/Java/Java基础面试题总结.md",
+    "XiaoYi/JavaGuide/框架/Spring常见面试题总结.md",
+    "XiaoYi/JavaGuide/操作系统/操作系统基础.md"
+  ]
+}
