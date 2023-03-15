@@ -305,4 +305,631 @@ switch a, b := x[i], y[j]; {
 1. `var buffer bytes.Buffer`
 2. `var r *bytes.Buffer` = new(bytes.Buffer)
 3. 通过buffer串联字符：`buffer.WriteString(s) buffer.String()`
-4. 
+
+#### For-Range结构
+
+```go
+for ix, value := range slice1 {
+}
+##value只是一个拷贝值无法进行修改
+##可以忽略其中的一个值，使用空白符即可
+```
+
+##### 多维切片
+
+```go
+for row := range screen {
+    for column := range screen[row] {
+        screen[row][column] = 1
+    }
+}
+```
+
+#### 切片重组
+
+1. 切片重组就是改变切片的长度
+2. 切片后重组的长度和容量：`arr[5:6]`假设这个数组有10个长度，此时长度为6-5，cap是10-5
+
+#### 切片的复制与追加
+
+```go
+slForm := []int{1,2,3}
+slTo := make([]int,10)
+##表示复制的多少个数字
+n := copy(slTo,slForm)
+##append会分配新的切片来保证已有切片元素和新增元素的存储，因此返回的切片可能指向一个不同的相关数组
+slTo := append(slForm,4,5,6)
+```
+
+#### 字符串和数组和切片的应用
+
+##### 字符串和切片的内存结构
+
+1. 字符串是一个双字结构，指向实际数据的指针和记录字符串的长度的整数
+
+##### 修改字符串中的某个字符
+
+```go
+s := "hello"
+c := []byte(s)
+c[0] = 'c'
+
+```
+
+##### append函数常见操作
+
+1. `a = append(a,b...)`
+2. 删除位于i的索引：`a = append(a[:i],a[:i+1])`
+3. 切除切片a中索引i至j位置的元素：`a = append(a[:i],a[j:])`
+4. 本质逻辑上就是：将append：里面的各种元素进行相加即可
+
+##### 切片和垃圾回收
+
+1. 切片的底层指向一个数组，该数组的实际容量可能要大于切片所定义的容量。只有在没有任何切片指向的时候，底层的数组内存才会被释放，这种特性有时会导致程序占用多余的内存
+
+```go
+var digitRegexp = regexp.MustCompile("[0-9]+")
+func FindDigits(filename string) []byte {
+    b, _ := ioutil.ReadFile(filename)
+    return digitRegexp.Find(b)
+}
+####[]byte 指向的底层是整个文件的数据。只要该返回的切片不被释放，垃圾回收器就不能释放整个文件所占用的内存。换句话说，一点点有用的数据却占用了整个文件的内存
+func FindDigits(filename string) []byte {
+   b, _ := ioutil.ReadFile(filename)
+   b = digitRegexp.Find(b)
+   c := make([]byte, len(b))
+   copy(c, b)
+   return c
+}
+#### 找到所有数字
+func FindFileDigits(filename string) []byte {
+   fileBytes, _ := ioutil.ReadFile(filename)
+   b := digitRegexp.FindAll(fileBytes, len(fileBytes))
+   c := make([]byte, 0)
+   for _, bytes := range b {
+      c = append(c, bytes...)
+   }
+   return c
+}
+```
+
+### Map
+
+#### 声明和初始化和make
+
+```go
+var hashtable map[string]int
+没有初始化的map是nil
+key 可以是任意可以用 == 或者 != 操作符比较的类型 value 可以是任意类型的；通过使用空接口类型（详见第 11.9 节），我们可以存储任意值，但是使用这种类型作为值时需要先做一次类型断言（详见第 11.3 节）
+map 传递给函数的代价很小：在 32 位机器上占 4 个字节，64 位机器上占 8 个字节
+```
+
+##### map容量
+
+1. 当 map 增长到容量上限的时候，如果再增加新的 key-value 对，map 的大小会自动加 1。所以出于性能的考虑，对于大的 map 或者会快速扩张的 map，即使只是大概知道容量，也最好先标明
+2. 可以设置初始容量
+
+##### 用切片做map值
+
+1. map1 := make[int] []int
+
+##### 测试键值是否存在并删除
+
+```go
+_, ok := map1[key1] // 如果key1存在则ok == true，否则ok为false
+delete(map1, "Washington")
+```
+
+##### for-range用法
+
+```go
+//可以使用空白符直接
+for key, value := range map1 {
+    ...
+}
+for key := range map1 {
+    fmt.Printf("key is: %d\n", key)
+}
+```
+
+##### map类型的切片
+
+### 结构与方法
+
+#### 结构体定义
+
+```go
+type myStruct struct {
+    il int
+    fl float32
+    str string
+}
+var v myStruct    // v是结构体类型变量
+var p *myStruct   // p是指向一个结构体类型变量的指针
+//初始化时：可以指定进行赋值，也可以忽略，但不指定的，就需要按顺序进行赋值
+```
+
+##### 结构体布局
+
+1. Go 语言中，结构体和它所包含的数据在内存中是以连续块的形式存在的，即使结构体中嵌套有其他的结构体，这在性能上带来了很大的优势
+
+##### 结构体转换
+
+1. 进行结构体转换时，不能直接用别名进行转换，需要使用原生的变量名进行转换
+
+#### 使用工厂方法创建结构体实例
+
+##### 结构体工厂
+
+```go
+type File struct {
+    fd      int     // 文件描述符
+    name    string  // 文件名
+}
+func NewFile(fd int, name string) *File {
+    if fd < 0 {
+        return nil
+    }
+    return &File{fd, name}
+}
+//查看结构体使用多少内存：size := unsafe.Sizeof(T)
+```
+
+##### 如何强制使用工厂方法
+
+```go
+type matrix struct {
+    ...
+}
+func NewMatrix(params) *matrix {
+    m := new(matrix) // 初始化 m
+    return m
+}
+```
+
+#### 使用自定义包中的结构体
+
+1. ` struct1 := new(structPack.ExpStruct)`
+
+#### 带标签的结构体
+
+```go
+package main
+import (
+    "fmt"
+    "reflect"
+)
+type TagType struct { // tags
+    field1 bool   "An important answer"
+    field2 string "The name of the thing"
+    field3 int    "How much there are"
+}
+func main() {
+    tt := TagType{true, "Barak Obama", 1}
+    for i := 0; i < 3; i++ {
+        refTag(tt, i)
+    }
+}
+func refTag(tt TagType, ix int) {
+    //获取反射，通过Filed获取注释
+    ttType := reflect.TypeOf(tt)
+    ixField := ttType.Field(ix)
+    fmt.Printf("%v\n", ixField.Tag)
+}
+```
+
+#### 匿名字段和内嵌结构体
+
+##### 定义
+
+1. 结构体可以包含一个或多个 **匿名（或内嵌）字段**，即这些字段没有显式的名字，只有字段的类型是必须的，此时类型就是字段的名字。匿名字段本身可以是一个结构体类型，即 **结构体可以包含内嵌结构体**
+2. Go 语言中的继承是通过内嵌或组合来实现的，
+3. 在一个结构体中对于每一种数据类型只能有一个匿名字段
+
+```go
+package main
+import "fmt"
+type innerS struct {
+    in1 int
+    in2 int
+}
+type outerS struct {
+    b    int
+    c    float32
+    int  // anonymous field
+    innerS //anonymous field
+}
+func main() {
+    outer := new(outerS)
+    outer.b = 6
+    outer.c = 7.5
+    outer.int = 60
+    outer.in1 = 5
+    outer.in2 = 10
+    fmt.Printf("outer.b is: %d\n", outer.b)
+    fmt.Printf("outer.c is: %f\n", outer.c)
+    fmt.Printf("outer.int is: %d\n", outer.int)
+    fmt.Printf("outer.in1 is: %d\n", outer.in1)
+    fmt.Printf("outer.in2 is: %d\n", outer.in2)
+    // 使用结构体字面量
+    outer2 := outerS{6, 7.5, 60, innerS{5, 10}}
+    fmt.Println("outer2 is:", outer2)
+}
+```
+
+##### 内嵌结构体
+
+```go
+package main
+import "fmt"
+type A struct {
+    ax, ay int
+}
+type B struct {
+    A
+    bx, by float32
+}
+func main() {
+    b := B{A{1, 2}, 3.0, 4.0}
+    fmt.Println(b.ax, b.ay, b.bx, b.by)
+    fmt.Println(b.A)
+}
+```
+
+##### 命名冲突
+
+1. 当两个字段拥有相同的名字时，外层名字会覆盖内层名字（但是两者的内存空间都保留），这提供了一种重载字段或方法的方式
+2. 如果相同的名字在同一级别出现了两次，如果这个名字被程序使用了，将会引发一个错误（不使用没关系）。没有办法来解决这种问题引起的二义性，必须由程序员自己修正
+3. `type D struct {B; b float32}`:想要内层的b可以通过d.B.b
+
+#### 方法
+
+##### 方法是什么
+
+1. 接收者类型可以是（几乎）任何类型，不仅仅是结构体类型：任何类型都可以有方法，甚至可以是函数类型，可以是 int、bool、string 或数组的别名类型。接收者类型可以是（几乎）任何类型，不仅仅是结构体类型：任何类型都可以有方法，甚至可以是函数类型，可以是 int、bool、string 或数组的别名类型
+2. 一个类型加上它的方法等价于面向对象中的一个类。一个重要的区别是：在 Go 中，类型的代码和绑定在它上面的方法的代码可以不放置在一起，它们可以存在在不同的源文件，唯一的要求是：它们必须是同一个包的
+3. 如果基于接收者类型，是有重载的：具有同样名字的方法可以在 2 个或多个不同的接收者类型上存在，比如在同一个包里这么做是允许的
+4. `func (a *denseMatrix) Add(b Matrix) Matrix`
+5. `func (a *sparseMatrix) Add(b Matrix) Matrix`
+
+```go
+//本质上就是方法接收者，执行方法的人，可以使用自已的资源和传进来的参数进行操作
+//
+```
+
+```go
+package main
+import "fmt"
+type IntVector []int
+func (v IntVector) Sum() (s int) {
+    for _, x := range v {
+        s += x
+    }
+    return
+}
+func main() {
+    fmt.Println(IntVector{1, 2, 3}.Sum()) // 输出是6
+}
+```
+
+### 读与数据
+
+#### 读取用户的输入
+
+```go
+//Scanln 扫描来自标准输入的文本，将空格分隔的值依次存放到后续的参数内，直到碰到换行
+fmt.Scanln(&firstName, &lastName)
+//Sscan 和以 Sscan 开头的函数则是从字符串读取
+fmt.Sscanf(input, format, &f, &i, &s)
+//第二种方法
+inputReader = bufio.NewReader(os.Stdin)
+input,err = inputReader.ReadString("\n")
+```
+
+#### 文件读写
+
+##### 读文件
+
+```go
+inputFile, inputError := os.Open("input.dat")
+defer inputFile.Close()
+inputReader := bufio.NewReader(inputFile)
+inputString, readerError := inputReader.ReadString('\n')
+```
+
+##### 其他类似函数
+
+```go
+inputFile := "products.txt"
+outputFile := "products_copy.txt"
+buf, err := ioutil.ReadFile(inputFile)
+err = ioutil.WriteFile(outputFile, buf, 0644)
+```
+
+##### 带缓冲的读取
+
+```go
+buf := make([]byte, 1024)
+n, err := inputReader.Read(buf)
+```
+
+##### compress包：读取压缩文件
+
+```go
+package main
+import (
+    "fmt"
+    "bufio"
+    "os"
+    "compress/gzip"
+)
+func main() {
+    fName := "MyFile.gz"
+    var r *bufio.Reader
+    fi, err := os.Open(fName)
+    if err != nil {
+        fmt.Fprintf(os.Stderr, "%v, Can't open %s: error: %s\n", os.Args[0], fName,
+            err)
+        os.Exit(1)
+    }
+    defer fi.Close()
+    fz, err := gzip.NewReader(fi)
+    if err != nil {
+        r = bufio.NewReader(fi)
+    } else {
+        r = bufio.NewReader(fz)
+    }
+    for {
+        line, err := r.ReadString('\n')
+        if err != nil {
+            fmt.Println("Done reading file")
+            os.Exit(0)
+        }
+        fmt.Println(line)
+    }
+}
+```
+
+##### 读文件
+
+```go
+package main
+import (
+    "os"
+    "bufio"
+    "fmt"
+)
+func main () {
+    // var outputWriter *bufio.Writer
+    // var outputFile *os.File
+    // var outputError os.Error
+    // var outputString string
+    outputFile, outputError := os.OpenFile("output.dat", os.O_WRONLY|os.O_CREATE, 0666)
+    if outputError != nil {
+        fmt.Printf("An error occurred with file opening or creation\n")
+        return  
+    }
+    defer outputFile.Close()
+    outputWriter := bufio.NewWriter(outputFile)
+    outputString := "hello world!\n"
+    for i:=0; i<10; i++ {
+        outputWriter.WriteString(outputString)
+    }
+    outputWriter.Flush()
+}
+//直接写入文件
+fmt.Fprintf(outputFile, "Some test data.\n")
+//直接输入到屏幕上
+os.Stdout.WriteString("hello, world\n")
+```
+
+#### 文件拷贝
+
+```go
+// filecopy.go
+package main
+import (
+    "fmt"
+    "io"
+    "os"
+)
+func main() {
+    CopyFile("target.txt", "source.txt")
+    fmt.Println("Copy done!")
+}
+func CopyFile(dstName, srcName string) (written int64, err error) {
+    src, err := os.Open(srcName)
+    if err != nil {
+        return
+    }
+    defer src.Close()
+    dst, err := os.Create(dstName)
+    if err != nil {
+        return
+    }
+    defer dst.Close()
+    return io.Copy(dst, src)
+}
+// 打开文件，创建文件，使用io.Copy函数并传入打开文件的变量和创建文件的变量
+```
+
+#### 从命令行读取参数
+
+##### os包
+
+```go
+// os_args.go
+package main
+import (
+    "fmt"
+    "os"
+    "strings"
+)
+func main() {
+    who := "Alice "
+    if len(os.Args) > 1 {
+        who += strings.Join(os.Args[1:], " ")
+    }
+    fmt.Println("Good Morning", who)
+}
+```
+
+##### flag包
+
+```go
+package main
+import (
+    "flag" // command line option parser
+    "os"
+)
+var NewLine = flag.Bool("n", false, "print newline") // echo -n flag, of type *bool
+const (
+    Space   = " "
+    Newline = "\n"
+)
+func main() {
+    //打印帮助信息
+    flag.PrintDefaults()
+    flag.Parse() // Scans the arg list and sets up flags
+    var s string = ""
+    for i := 0; i < flag.NArg(); i++ {
+        if i > 0 {
+            s += " "
+            if *NewLine { // -n is parsed, flag becomes true
+                s += Newline
+            }
+        }
+        s += flag.Arg(i)
+    }
+    os.Stdout.WriteString(s)
+}
+/**
+flag.Parse() 扫描参数列表（或者常量列表）并设置 flag, flag.Arg(i) 表示第i个参数。Parse() 之后 flag.Arg(i) 全部可用，flag.Arg(0) 就是第一个真实的 flag，而不是像 os.Args(0) 放置程序的名字。
+
+flag.Narg() 返回参数的数量。解析后 flag 或常量就可用了。 flag.Bool() 定义了一个默认值是 false 的 flag：当在命令行出现了第一个参数（这里是 “n”），flag 被设置成 true（NewLine 是 *bool 类型）。flag 被解引用到 *NewLine，所以当值是 true 时将添加一个 Newline（”\n”）。
+*/
+
+```
+
+##### 用buffer读取文件
+
+```go
+package main
+import (
+    "bufio"
+    "flag"
+    "fmt"
+    "io"
+    "os"
+)
+func cat(r *bufio.Reader) {
+    for {
+        buf, err := r.ReadBytes('\n')
+        fmt.Fprintf(os.Stdout, "%s", buf)
+        if err == io.EOF {
+            break
+        }
+    }
+    return
+}
+func main() {
+    flag.Parse()
+    if flag.NArg() == 0 {
+        cat(bufio.NewReader(os.Stdin))
+    }
+    for i := 0; i < flag.NArg(); i++ {
+        f, err := os.Open(flag.Arg(i))
+        if err != nil {
+            fmt.Fprintf(os.Stderr, "%s:error reading from %s: %s\n", os.Args[0], flag.Arg(i), err.Error())
+            continue
+        }
+        cat(bufio.NewReader(f))
+        f.Close()
+    }
+}
+```
+
+#### 用切片读写文件
+
+```go
+func cat(f *os.File) {
+    const NBUF = 512
+    var buf [NBUF]byte
+    for {
+        switch nr, err := f.Read(buf[:]);  {
+        case nr < 0:
+            fmt.Fprintf(os.Stderr, "cat: error reading: %s\n", err.Error())
+            os.Exit(1)
+        case nr == 0: // EOF
+            return
+        case nr > 0:
+            if nw, ew := os.Stdout.Write(buf[0:nr]); nw != nr {
+                fmt.Fprintf(os.Stderr, "cat: error writing: %s\n", ew.Error())
+            }
+        }
+    }
+}
+```
+
+```go
+package main
+import (
+    "flag"
+    "fmt"
+    "os"
+)
+func cat(f *os.File) {
+    const NBUF = 512
+    var buf [NBUF]byte
+    for {
+        switch nr, err := f.Read(buf[:]); true {
+        case nr < 0:
+            fmt.Fprintf(os.Stderr, "cat: error reading: %s\n", err.Error())
+            os.Exit(1)
+        case nr == 0: // EOF
+            return
+        case nr > 0:
+            if nw, ew := os.Stdout.Write(buf[0:nr]); nw != nr {
+                fmt.Fprintf(os.Stderr, "cat: error writing: %s\n", ew.Error())
+            }
+        }
+    }
+}
+func main() {
+    flag.Parse() // Scans the arg list and sets up flags
+    if flag.NArg() == 0 {
+        cat(os.Stdin)
+    }
+    for i := 0; i < flag.NArg(); i++ {
+        f, err := os.Open(flag.Arg(i))
+        if f == nil {
+            fmt.Fprintf(os.Stderr, "cat: can't open %s: error %s\n", flag.Arg(i), err)
+            os.Exit(1)
+        }
+        cat(f)
+        f.Close()
+    }
+}
+```
+
+#### 使用接口的实际例子：fmt.Printf
+
+```go
+// interfaces being used in the GO-package fmt
+package main
+import (
+    "bufio"
+    "fmt"
+    "os"
+)
+func main() {
+    // unbuffered
+    fmt.Fprintf(os.Stdout, "%s\n", "hello world! - unbuffered")
+    // buffered: os.Stdout implements io.Writer
+    buf := bufio.NewWriter(os.Stdout)
+    // and now so does buf.
+    fmt.Fprintf(buf, "%s\n", "hello world! - buffered")
+    buf.Flush()
+}
+```
+
