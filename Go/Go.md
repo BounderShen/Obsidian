@@ -933,3 +933,467 @@ func main() {
 }
 ```
 
+#### JSON格式化数据
+
+1. JSON 更加简洁、轻量（占用更少的内存、磁盘及网络带宽）和更好的可读性
+
+```go
+// json.go
+package main
+import (
+    "encoding/json"
+    "fmt"
+    "log"
+    "os"
+)
+type Address struct {
+    Type    string
+    City    string
+    Country string
+}
+type VCard struct {
+    FirstName string
+    LastName  string
+    Addresses []*Address
+    Remark    string
+}
+func main() {
+    pa := &Address{"private", "Aartselaar", "Belgium"}
+    wa := &Address{"work", "Boom", "Belgium"}
+    vc := VCard{"Jan", "Kersschot", []*Address{pa, wa}, "none"}
+    // fmt.Printf("%v: \n", vc) // {Jan Kersschot [0x126d2b80 0x126d2be0] none}:
+    // JSON format:
+    js, _ := json.Marshal(vc)
+    fmt.Printf("JSON format: %s", js)
+    // using an encoder:
+    file, _ := os.OpenFile("vcard.json", os.O_CREATE|os.O_WRONLY, 0666)
+    defer file.Close()
+    enc := json.NewEncoder(file)
+    err := enc.Encode(vc)
+    if err != nil {
+        log.Println("Error in encoding json")
+    }
+}
+/**在 web 应用中最好使用 json.MarshalforHTML() 函数，其对数据执行HTML转码，所以文本可以被安全地嵌在 HTML <script> 标签中*/
+
+```
+
+##### 只有验证通过的数据结构才能被编码：
+
+1. JSON 对象只支持字符串类型的 key；要编码一个 Go map 类型，map 必须是 map[string]T（T是 `json` 包中支持的任何类型）
+2. Channel，复杂类型和函数类型不能被编码
+3. 不支持循环数据结构；它将引起序列化进入一个无限循环
+4. 指针可以被编码，实际上是对指针指向的值进行编码（或者指针是 nil）
+
+##### 反序列化
+
+1. `UnMarshal()` 的函数签名是 `func Unmarshal(data []byte, v interface{}) error` 把 JSON 解码为数据结构
+2. ，对其解码时，我们首先创建结构 VCard 用来保存解码的数据：`var v VCard` 并调用 `json.Unmarshal(js, &v)`，解析 []byte 中的 JSON 数据并将结果存入指针 &v 指向的值
+
+##### 解码任意的数据
+
+```go
+b := []byte(`{"Name": "Wednesday", "Age": 6, "Parents": ["Gomez", "Morticia"]}`)
+var f interface{}
+err := json.Unmarshal(b, &f)
+m := f.(map[string]interface{})
+```
+
+##### 解码到数据结构
+
+```go
+var m FamilyMember
+err := json.Unmarshal(b, &m)
+```
+
+##### 编码和解码流
+
+```go
+func NewDecoder(r io.Reader) *Decoder
+func (dec *Decoder) Decode(v interface{}) error
+```
+
+#### xml数据格式
+
+```go
+// xml.go
+package main
+import (
+    "encoding/xml"
+    "fmt"
+    "strings"
+)
+var t, token xml.Token
+var err error
+func main() {
+    input := "<Person><FirstName>Laura</FirstName><LastName>Lynn</LastName></Person>"
+    inputReader := strings.NewReader(input)
+    p := xml.NewDecoder(inputReader)
+    for t, err = p.Token(); err == nil; t, err = p.Token() {
+        switch token := t.(type) {
+        case xml.StartElement:
+            name := token.Name.Local
+            fmt.Printf("Token name: %s\n", name)
+            for _, attr := range token.Attr {
+                attrName := attr.Name.Local
+                attrValue := attr.Value
+                fmt.Printf("An attribute is: %s %s\n", attrName, attrValue)
+                // ...
+            }
+        case xml.EndElement:
+            fmt.Println("End of token")
+        case xml.CharData:
+            content := string([]byte(token))
+            fmt.Printf("This is the content: %v\n", content)
+            // ...
+        default:
+            // ...
+        }
+    }
+}
+```
+
+#### 用Gob传输数据
+
+1. Gob 特定地用于纯 Go 的环境中
+2. Gob 并不是一种不同于 Go 的语言，而是在编码和解码过程中用到了 Go 的反射
+3. Gob 文件或流是完全自描述的：里面包含的所有类型都有一个对应的描述，并且总是可以用 Go 解码，而不需要了解文件的内容
+4. 当源数据类型增加新字段后，Gob 解码客户端仍然可以以这种方式正常工作：解码客户端会继续识别以前存在的字段。并且还提供了很大的灵活性，比如在发送者看来，整数被编码成没有固定长度的可变长度，而忽略具体的 Go 类型。只有可导出的字段会被编码，零值会被忽略，在解码结构体的时候，只有同时匹配名称和可兼容类型的字段才会被解码
+
+```go
+// gob1.go
+package main
+import (
+    "bytes"
+    "fmt"
+    "encoding/gob"
+    "log"
+)
+type P struct {
+    X, Y, Z int
+    Name    string
+}
+type Q struct {
+    X, Y *int32
+    Name string
+}
+func main() {
+    // Initialize the encoder and decoder.  Normally enc and dec would be      
+    // bound to network connections and the encoder and decoder would      
+    // run in different processes.      
+    var network bytes.Buffer   // Stand-in for a network connection      
+    enc := gob.NewEncoder(&network) // Will write to network.      
+    dec := gob.NewDecoder(&network)    // Will read from network.      
+    // Encode (send) the value.      
+    err := enc.Encode(P{3, 4, 5, "Pythagoras"})
+    if err != nil {
+        log.Fatal("encode error:", err)
+    }
+    // Decode (receive) the value.      
+    var q Q
+    err = dec.Decode(&q)
+    if err != nil {
+        log.Fatal("decode error:", err)
+    }
+    fmt.Printf("%q: {%d,%d}\n", q.Name, q.X, q.Y)
+}
+// Output:   "Pythagoras": {3,4}
+```
+
+##### 编码到文件
+
+```go
+// gob2.go
+package main
+import (
+    "encoding/gob"
+    "log"
+    "os"
+)
+type Address struct {
+    Type             string
+    City             string
+    Country          string
+}
+type VCard struct {
+    FirstName    string
+    LastName    string
+    Addresses    []*Address
+    Remark        string
+}
+var content    string
+func main() {
+    pa := &Address{"private", "Aartselaar","Belgium"}
+    wa := &Address{"work", "Boom", "Belgium"}
+    vc := VCard{"Jan", "Kersschot", []*Address{pa,wa}, "none"}
+    // fmt.Printf("%v: \n", vc) // {Jan Kersschot [0x126d2b80 0x126d2be0] none}:
+    // using an encoder:
+    file, _ := os.OpenFile("vcard.gob", os.O_CREATE|os.O_WRONLY, 0666)
+    defer file.Close()
+    enc := gob.NewEncoder(file)
+    err := enc.Encode(vc)
+    if err != nil {
+        log.Println("Error in encoding gob")
+    }
+}
+```
+
+#### Go中的密码学
+
+1. crypto
+
+```go
+// hash_sha1.go
+package main
+import (
+    "fmt"
+    "crypto/sha1"
+    "io"
+    "log"
+)
+func main() {
+    hasher := sha1.New()
+    io.WriteString(hasher, "test")
+    b := []byte{}
+    fmt.Printf("Result: %x\n", hasher.Sum(b))
+    fmt.Printf("Result: %d\n", hasher.Sum(b))
+    //
+    hasher.Reset()
+    data := []byte("We shall overcome!")
+    n, err := hasher.Write(data)
+    if n!=len(data) || err!=nil {
+        log.Printf("Hash write error: %v / %v", n, err)
+    }
+    checksum := hasher.Sum(b)
+    fmt.Printf("Result: %x\n", checksum)
+}
+```
+
+### 错误处理与测试
+
+1. **永远不要忽略错误，否则可能会导致程序崩溃！！**
+
+#### 错误处理
+
+##### 定义错误
+
+1. `err := errors.New("math - square root of negative number")`
+2. fmt.Errorf("math: square root of negative number %g", f)
+
+#### 运行时异常
+
+```go
+//终止程序执行
+if err != nil {
+    panic("ERROR occured: " + err.Error() )
+}
+```
+
+#### 从panic中恢复
+
+```go
+recover 只能在 defer 修饰的函数（参见 6.4 节）中使用：用于取得 panic 调用中传递过来的错误值，如果是正常执行，调用 recover 会返回 nil，且没有其它效果
+```
+
+```go
+func protect(g func()) {
+    defer func() {
+        log.Println("done")
+        // Println executes normally even if there is a panic
+        if err := recover(); err != nil {
+            log.Printf("run time panic: %v", err)
+        }
+    }()
+    log.Println("start")
+    g() //   possible runtime-error
+}
+```
+
+####  自定义包中错误处理和panickig
+
+##### 规则
+
+1. *在包内部，总是应该从 panic 中 recover*：不允许显式的超出包范围的 panic()
+2. *向包的调用者返回错误值（而不是 panic）*
+
+```go
+// parse.go
+package parse
+import (
+    "fmt"
+    "strings"
+    "strconv"
+)
+// A ParseError indicates an error in converting a word into an integer.
+type ParseError struct {
+    Index int      // The index into the space-separated list of words.
+    Word  string   // The word that generated the parse error.
+    Err error // The raw error that precipitated this error, if any.
+}
+// String returns a human-readable error message.
+func (e *ParseError) String() string {
+    return fmt.Sprintf("pkg parse: error parsing %q as int", e.Word)
+}
+// Parse parses the space-separated words in in put as integers.
+func Parse(input string) (numbers []int, err error) {
+    defer func() {
+        if r := recover(); r != nil {
+            var ok bool
+            err, ok = r.(error)
+            if !ok {
+                err = fmt.Errorf("pkg: %v", r)
+            }
+        }
+    }()
+    fields := strings.Fields(input)
+    numbers = fields2numbers(fields)
+    return
+}
+func fields2numbers(fields []string) (numbers []int) {
+    if len(fields) == 0 {
+        panic("no words to parse")
+    }
+    for idx, field := range fields {
+        num, err := strconv.Atoi(field)
+        if err != nil {
+            panic(&ParseError{idx, field, err})
+        }
+        numbers = append(numbers, num)
+    }
+    return
+}
+```
+
+##### panic_package
+
+```go
+// panic_package.go
+package main
+import (
+    "fmt"
+    "./parse/parse"
+)
+func main() {
+    var examples = []string{
+            "1 2 3 4 5",
+            "100 50 25 12.5 6.25",
+            "2 + 2 = 4",
+            "1st class",
+            "",
+    }
+    for _, ex := range examples {
+        fmt.Printf("Parsing %q:\n  ", ex)
+        nums, err := parse.Parse(ex)
+        if err != nil {
+            fmt.Println(err) // here String() method from ParseError is used
+            continue
+        }
+        fmt.Println(nums)
+    }
+}
+```
+
+#### 一种用闭包处理的错误的方式
+
+##### 错误处理
+
+```go
+func errorHandler(fn fType1) fType1 {
+    return func(a type1, b type2) {
+        defer func() {
+            if err, ok := recover().(error); ok {
+                log.Printf("run time panic: %v", err)
+            }
+        }()
+        fn(a, b)
+    }
+}
+/**
+在这种模式下，不同的错误处理必须对应不同的函数类型；它们（错误处理）可能被隐藏在错误处理包内部。可选的更加通用的方式是用一个空接口类型的切片作为参数和返回值
+*/
+```
+
+#### 启动外部命令和程序
+
+1. os 包有一个 `StartProcess` 函数可以调用或启动外部系统命令和二进制可执行文件；它的第一个参数是要运行的进程，第二个参数用来传递选项或参数，第三个参数是含有系统环境基本信息的结构体。这个函数返回被启动进程的 id（pid），或者启动失败返回错误
+
+```go
+// exec.go
+package main
+import (
+    "fmt"
+    "os/exec"
+    "os"
+)
+func main() {
+// 1) os.StartProcess //
+/*********************/
+/* Linux: */
+env := os.Environ()
+procAttr := &os.ProcAttr{
+            Env: env,
+            Files: []*os.File{
+                os.Stdin,
+                os.Stdout,
+                os.Stderr,
+            },
+        }
+// 1st example: list files
+pid, err := os.StartProcess("/bin/ls", []string{"ls", "-l"}, procAttr)  
+if err != nil {
+        fmt.Printf("Error %v starting process!", err)  //
+        os.Exit(1)
+}
+fmt.Printf("The process id is %v", pid)
+```
+
+```go
+// 2nd example: show all processes
+pid, err = os.StartProcess("/bin/ps", []string{"ps", "-e", "-opid,ppid,comm"}, procAttr)  
+if err != nil {
+        fmt.Printf("Error %v starting process!", err)  //
+        os.Exit(1)
+}
+fmt.Printf("The process id is %v", pid)
+```
+
+```go
+// 2) exec.Run //
+/***************/
+// Linux:  OK, but not for ls ?
+// cmd := exec.Command("ls", "-l")  // no error, but doesn't show anything ?
+// cmd := exec.Command("ls")          // no error, but doesn't show anything ?
+    cmd := exec.Command("gedit")  // this opens a gedit-window
+    err = cmd.Run()
+    if err != nil {
+        fmt.Printf("Error %v executing command!", err)
+        os.Exit(1)
+    }
+    fmt.Printf("The command is %v", cmd)
+// The command is &{/bin/ls [ls -l] []  <nil> <nil> <nil> 0xf840000210 <nil> true [0xf84000ea50 0xf84000e9f0 0xf84000e9c0] [0xf84000ea50 0xf84000e9f0 0xf84000e9c0] [] [] 0xf8400128c0}
+}
+// in Windows: uitvoering: Error fork/exec /bin/ls: The system cannot find the path specified. starting process!
+```
+
+#### Go中的单元测试和基准测试
+
+##### 下面这些函数来通知测试失败：
+
+```go
+func (t *T) Fail() //标记测试函数为失败，然后继续执行（剩下的测试）。
+func (t *T) FailNow() //标记测试函数为失败并中止执行；文件中别的测试也被略过，继续执行下一个文件
+func (t *T) Log(args ...interface{}) //args 被用默认的格式格式化并打印到错误日志中。
+func (t *T) Fatal(args ...interface{}) //  结合 先执行 3），然后执行 2）的效果
+```
+
+##### testing 包中有一些类型和函数可以用来做简单的基准测试；测试代码中必须包含以 `BenchmarkZzz` 打头的函数并接收一个 `*testing.B` 类型的参数
+
+```go
+func BenchmarkReverse(b *testing.B) {
+    ...
+}
+```
+
+#### 测试具体的例子
+
+##### 
