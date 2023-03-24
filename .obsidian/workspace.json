@@ -4,59 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "df4f9c7a706c46dd",
+        "id": "d26ceb8d897927c7",
         "type": "tabs",
         "children": [
           {
-            "id": "adc8e38b5d552b7d",
+            "id": "94aa68699bee5ddb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go/Go.md",
+                "file": "XiaoYi/梦想/计算机网络/什么是因特网.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3fc0a53d3ff4da55",
+            "id": "3dbad8fc51df1491",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go/Gin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e1a0331c1eaf53f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/Go.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f8eefbb84636630",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Go/Go.md",
+                "file": "Growth/task/3月25日.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go/Go.md",
+                "file": "Growth/task/3月25日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Go/Go.md",
+                "file": "Growth/task/3月25日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,28 +139,44 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Go/Go.md"
+                "file": "Growth/task/3月25日.md"
               }
             }
+          },
+          {
+            "id": "6450a739a2f0be22",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "79217599429fa7f0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "621aa3ae30e0b848",
+  "active": "3dbad8fc51df1491",
   "lastOpenFiles": [
-    "XiaoYi/JavaGuide/计算机网络/计算机网络.md",
-    "Go/Go.md",
-    "Go/Gin.md",
-    "Go/Go Web编程.md",
-    "Go/docker.md",
-    "XiaoYi/JavaGuide/数据库/SQL语法基础知识总结.md",
-    "XiaoYi/JavaGuide/数据库/数据库基础知识总结.md",
-    "XiaoYi/JavaGuide/Java/Java基础面试题总结.md",
+    "XiaoYi/梦想/计算机网络/什么是因特网.md",
     "XiaoYi/课程/分布式系统.md",
-    "XiaoYi/JavaGuide/框架/Spring常见面试题总结.md"
+    "XiaoYi/计划/部落冲突计划.md",
+    "OKR.md",
+    "java五个阶段.pdf",
+    "XiaoYi/Plan/2022/Day Planners/Day Planner-20221103.md",
+    "XiaoYi/计划/人生计划.md",
+    "XiaoYi/日记/2022-11-01.md",
+    "XiaoYi/日记/2022-10-31.md",
+    "XiaoYi/日记/2022-10-30.md"
   ]
 }
