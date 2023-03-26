@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Basic/CSAPP/位、字节、整数.md",
+                "file": "Growth/Note/2023-03-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Basic/CSAPP/位、字节、整数.md",
+                "file": "Growth/Note/2023-03-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Basic/CSAPP/位、字节、整数.md",
+                "file": "Growth/Note/2023-03-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/Basic/CSAPP/位、字节、整数.md"
+                "file": "Growth/Note/2023-03-26.md"
               }
             }
           },
@@ -179,6 +179,7 @@
   },
   "active": "f6d5a2d4e77b9153",
   "lastOpenFiles": [
+    "Dev/Basic/CSAPP/位、字节、整数.md",
     "Dev/Basic/CSAPP/漫游计算机.md",
     "Dev/Basic/CMU/Note.md",
     "Growth/Note/2023-03-25.md",
@@ -187,7 +188,6 @@
     "Growth/task/3月25日.md",
     "XiaoYi/课程/分布式系统.md",
     "XiaoYi/计划/部落冲突计划.md",
-    "OKR.md",
-    "java五个阶段.pdf"
+    "OKR.md"
   ]
 }
