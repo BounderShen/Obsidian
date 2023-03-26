@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "63b8e23552886be5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Paper/ft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2a50a0b9769304c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Paper/mapreduce.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Growth/Note/2023-03-26.md",
+                "file": "Dev/Paper/mapreduce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Growth/Note/2023-03-26.md",
+                "file": "Dev/Paper/mapreduce.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Growth/Note/2023-03-26.md"
+                "file": "Dev/Paper/mapreduce.md"
               }
             }
           },
@@ -177,17 +201,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "f6d5a2d4e77b9153",
+  "active": "b2a50a0b9769304c",
   "lastOpenFiles": [
+    "Dev/Paper/ft.md",
+    "Growth/翻译可行性分析.md",
+    "Growth/Note/2023-03-26.md",
     "Dev/Basic/CSAPP/位、字节、整数.md",
     "Dev/Basic/CSAPP/漫游计算机.md",
     "Dev/Basic/CMU/Note.md",
     "Growth/Note/2023-03-25.md",
     "XiaoYi/梦想/计算机网络/什么是因特网.md",
     "XiaoYi/工具/MarkDown笔记.md",
-    "Growth/task/3月25日.md",
-    "XiaoYi/课程/分布式系统.md",
-    "XiaoYi/计划/部落冲突计划.md",
-    "OKR.md"
+    "Growth/task/3月25日.md"
   ]
 }
