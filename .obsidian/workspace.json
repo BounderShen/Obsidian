@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a3c0b65b3151df19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Basic/CSAPP/IO.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,17 +177,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "74ee32de507dcd98",
+  "active": "a3c0b65b3151df19",
   "lastOpenFiles": [
-    "Dev/Basic/CSAPP/内存层次结构.md",
-    "Dev/Basic/CSAPP/vm.md",
-    "Dev/Basic/CSAPP/IO.md",
-    "Dev/Basic/CSAPP/漫游计算机.md",
-    "Growth/Note/2023-03-25.md",
-    "Dev/Go/docker.md",
-    "Dev/Basic/CSAPP/机器级数据.md",
     "Dev/Paper/mapreduce.md",
     "Dev/Paper/ft.md",
-    "Growth/Note/2023-03-26.md"
+    "Dev/Basic/CSAPP/优化.md",
+    "Dev/Basic/CSAPP/内存等级.md",
+    "Growth/Note/2023-04-03.md",
+    "Dev/Basic/CSAPP/并发编程.md",
+    "Dev/Basic/CSAPP/IO.md",
+    "Dev/Basic/CSAPP/内存层次结构.md",
+    "Dev/Basic/CSAPP/vm.md",
+    "Dev/Basic/CSAPP/漫游计算机.md"
   ]
 }
