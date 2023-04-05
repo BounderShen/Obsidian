@@ -37,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Basic/CMU/storage.md",
+                "file": "Dev/Go/Go.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2968728d837b976",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Go/Tour Go.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e2e5e44a007fa18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Go/Tour Go.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Basic/CMU/storage.md",
+                "file": "Dev/Go/Tour Go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Basic/CMU/storage.md",
+                "file": "Dev/Go/Tour Go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/Basic/CMU/storage.md"
+                "file": "Dev/Go/Tour Go.md"
               }
             }
           },
@@ -177,17 +201,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "a3c0b65b3151df19",
+  "active": "6e2e5e44a007fa18",
   "lastOpenFiles": [
-    "Dev/Basic/CSAPP/IO.md",
+    "Growth/Book/底层逻辑.md",
+    "Dev/Go/Tour Go.md",
+    "Dev/Go/Go.md",
     "Dev/Basic/CMU/storage.md",
+    "Dev/Basic/CSAPP/IO.md",
     "Dev/Paper/mapreduce.md",
     "Dev/Paper/ft.md",
     "Dev/Basic/CSAPP/优化.md",
     "Dev/Basic/CSAPP/内存等级.md",
-    "Growth/Note/2023-04-03.md",
-    "Dev/Basic/CSAPP/并发编程.md",
-    "Dev/Basic/CSAPP/内存层次结构.md",
-    "Dev/Basic/CSAPP/vm.md"
+    "Growth/Note/2023-04-03.md"
   ]
 }
