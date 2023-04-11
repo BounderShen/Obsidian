@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "dc913000adfb6742",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Paper/mapreduce.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b5982f9f357da20f",
             "type": "leaf",
             "state": {
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Basic/CMU/hashtable.md",
+                "file": "Dev/Paper/mapreduce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Basic/CMU/hashtable.md",
+                "file": "Dev/Paper/mapreduce.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/Basic/CMU/hashtable.md"
+                "file": "Dev/Paper/mapreduce.md"
               }
             }
           },
@@ -225,17 +237,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b1ed627b54887503",
+  "active": "dc913000adfb6742",
   "lastOpenFiles": [
-    "Growth/ChatGPT/指令角色.md",
+    "Dev/Basic/Dis/RFC and Threads.md",
     "Dev/Basic/CMU/hashtable.md",
+    "Growth/ChatGPT/指令角色.md",
     "Dev/Basic/CSAPP/vm.md",
     "Dev/Basic/CSAPP/IO.md",
     "Dev/Basic/CSAPP/内存缓存.md",
     "Dev/Basic/CSAPP/内存等级.md",
     "Dev/Basic/CSAPP/内存层次结构.md",
     "Growth/Plan/CMU、分布式系统、计算机网络计划.md",
-    "Growth/task/引流.md",
-    "Growth/Book/底层逻辑.md"
+    "Growth/task/引流.md"
   ]
 }
