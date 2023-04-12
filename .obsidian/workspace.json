@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Basic/CMU/hashtable.md",
+                "file": "Dev/Paper/GFS.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Basic/CMU/hashtable.md",
+                "file": "Dev/Paper/GFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Basic/CMU/hashtable.md",
+                "file": "Dev/Paper/GFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/Basic/CMU/hashtable.md"
+                "file": "Dev/Paper/GFS.md"
               }
             }
           },
@@ -240,9 +240,9 @@
   "active": "dc913000adfb6742",
   "lastOpenFiles": [
     "Dev/Basic/CSAPP/vm.md",
+    "Dev/Basic/CMU/hashtable.md",
     "Dev/Paper/mapreduce.md",
     "Dev/Basic/Dis/RFC and Threads.md",
-    "Dev/Basic/CMU/hashtable.md",
     "Growth/ChatGPT/指令角色.md",
     "Dev/Basic/CSAPP/IO.md",
     "Dev/Basic/CSAPP/内存缓存.md",
