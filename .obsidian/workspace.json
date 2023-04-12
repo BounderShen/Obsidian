@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Paper/mapreduce.md",
+                "file": "Dev/Basic/CMU/hashtable.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Paper/mapreduce.md",
+                "file": "Dev/Basic/CMU/hashtable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Paper/mapreduce.md",
+                "file": "Dev/Basic/CMU/hashtable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/Paper/mapreduce.md"
+                "file": "Dev/Basic/CMU/hashtable.md"
               }
             }
           },
@@ -239,15 +239,15 @@
   },
   "active": "dc913000adfb6742",
   "lastOpenFiles": [
+    "Dev/Basic/CSAPP/vm.md",
+    "Dev/Paper/mapreduce.md",
     "Dev/Basic/Dis/RFC and Threads.md",
     "Dev/Basic/CMU/hashtable.md",
     "Growth/ChatGPT/指令角色.md",
-    "Dev/Basic/CSAPP/vm.md",
     "Dev/Basic/CSAPP/IO.md",
     "Dev/Basic/CSAPP/内存缓存.md",
     "Dev/Basic/CSAPP/内存等级.md",
     "Dev/Basic/CSAPP/内存层次结构.md",
-    "Growth/Plan/CMU、分布式系统、计算机网络计划.md",
-    "Growth/task/引流.md"
+    "Growth/Plan/CMU、分布式系统、计算机网络计划.md"
   ]
 }
