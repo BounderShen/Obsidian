@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Paper/GFS.md",
+                "file": "Dev/Basic/CMU/tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Paper/GFS.md",
+                "file": "Dev/Basic/CMU/tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Paper/GFS.md",
+                "file": "Dev/Basic/CMU/tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/Paper/GFS.md"
+                "file": "Dev/Basic/CMU/tree.md"
               }
             }
           },
@@ -239,6 +239,8 @@
   },
   "active": "dc913000adfb6742",
   "lastOpenFiles": [
+    "Dev/Basic/CMU/BufferBool.md",
+    "Dev/Paper/GFS.md",
     "Dev/Basic/CSAPP/vm.md",
     "Dev/Basic/CMU/hashtable.md",
     "Dev/Paper/mapreduce.md",
@@ -246,8 +248,6 @@
     "Growth/ChatGPT/指令角色.md",
     "Dev/Basic/CSAPP/IO.md",
     "Dev/Basic/CSAPP/内存缓存.md",
-    "Dev/Basic/CSAPP/内存等级.md",
-    "Dev/Basic/CSAPP/内存层次结构.md",
-    "Growth/Plan/CMU、分布式系统、计算机网络计划.md"
+    "Dev/Basic/CSAPP/内存等级.md"
   ]
 }
