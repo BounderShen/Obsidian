@@ -239,15 +239,15 @@
   },
   "active": "dc913000adfb6742",
   "lastOpenFiles": [
-    "Dev/Basic/CMU/BufferBool.md",
-    "Dev/Paper/GFS.md",
+    "Dev/Basic/CSAPP/malloc.md",
     "Dev/Basic/CSAPP/vm.md",
-    "Dev/Basic/CMU/hashtable.md",
+    "Dev/Basic/CMU/BufferBool.md",
     "Dev/Paper/mapreduce.md",
+    "Dev/Paper/GFS.md",
+    "Dev/Basic/CMU/tree.md",
+    "Dev/Basic/CMU/hashtable.md",
     "Dev/Basic/Dis/RFC and Threads.md",
     "Growth/ChatGPT/指令角色.md",
-    "Dev/Basic/CSAPP/IO.md",
-    "Dev/Basic/CSAPP/内存缓存.md",
-    "Dev/Basic/CSAPP/内存等级.md"
+    "Dev/Basic/CSAPP/IO.md"
   ]
 }
