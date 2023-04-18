@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Growth/白诗诗/能力.md",
+                "file": "Dev/基本安装.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6c6b8b613b920a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Growth/运.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +85,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Basic/CMU/hashtable.md",
+                "file": "Dev/Basic/CMU/storage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0411c8dc3b0d33f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/tools/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2fc9ca17c5036cc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Basic/CMU/BufferBool.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Basic/CMU/hashtable.md",
+                "file": "Growth/运.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Basic/CMU/hashtable.md",
+                "file": "Growth/运.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/Basic/CMU/hashtable.md"
+                "file": "Growth/运.md"
               }
             }
           },
@@ -237,17 +273,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "dc913000adfb6742",
+  "active": "d6c6b8b613b920a3",
   "lastOpenFiles": [
-    "Dev/Basic/CMU/indexconcurr.md",
-    "Dev/Basic/CSAPP/vm.md",
-    "OKR.md",
-    "Dev/Basic/CMU/hashtable.md",
+    "Dev/基本安装.md",
+    "Dev/Go/Tour Go.md",
+    "Growth/白诗诗/能力.md",
     "Dev/Basic/CMU/tree.md",
-    "Dev/Basic/CSAPP/malloc.md",
     "Dev/Basic/CMU/BufferBool.md",
-    "Dev/Paper/mapreduce.md",
-    "Dev/Paper/GFS.md",
-    "Dev/Basic/Dis/RFC and Threads.md"
+    "Dev/Basic/CMU/hashtable.md",
+    "Dev/Basic/CMU/storage.md",
+    "Dev/tools/Linux.md",
+    "Dev/Basic/CMU/indexconcurr.md",
+    "Dev/Basic/CSAPP/vm.md"
   ]
 }
