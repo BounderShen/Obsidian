@@ -13,134 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/基本安装.md",
+                "file": "Dev/Go/环境配置问题.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d6c6b8b613b920a3",
+            "id": "ef48e2467e691e9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Growth/运.md",
+                "file": "Growth/思维导图.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eb45df539a99b155",
+            "id": "1904eea22a15d6f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Growth/Book/底层逻辑.md",
+                "file": "Dev/Basic/operate system/Introduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7da5927613f5ead2",
+            "id": "651a5b9dc5df57f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Growth/task/引流.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea1fb8e4ff85d37c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Growth/ChatGPT/指令角色.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1ed627b54887503",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/Basic/CMU/hashtable.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc913000adfb6742",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/Basic/CMU/storage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0411c8dc3b0d33f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/tools/Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2fc9ca17c5036cc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/Basic/CMU/BufferBool.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5982f9f357da20f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/Paper/mapreduce.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dda4cbbe76cc1576",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Growth/Note/2023-04-08.md",
+                "file": "Dev/Basic/operate system/操作系统书籍翻译.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -206,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Growth/运.md",
+                "file": "Dev/Basic/operate system/操作系统书籍翻译.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Growth/运.md",
+                "file": "Dev/Basic/operate system/操作系统书籍翻译.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Growth/运.md"
+                "file": "Dev/Basic/operate system/操作系统书籍翻译.md"
               }
             }
           },
@@ -273,17 +189,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "d6c6b8b613b920a3",
+  "active": "651a5b9dc5df57f4",
   "lastOpenFiles": [
+    "Dev/Basic/operate system/Introduction.md",
+    "Growth/思维导图.md",
     "Dev/基本安装.md",
-    "Dev/Go/Tour Go.md",
-    "Growth/白诗诗/能力.md",
-    "Dev/Basic/CMU/tree.md",
-    "Dev/Basic/CMU/BufferBool.md",
-    "Dev/Basic/CMU/hashtable.md",
-    "Dev/Basic/CMU/storage.md",
-    "Dev/tools/Linux.md",
-    "Dev/Basic/CMU/indexconcurr.md",
-    "Dev/Basic/CSAPP/vm.md"
+    "Growth/考研策略.md",
+    "Dev/云原生/K8s.md",
+    "Pasted image 20230419165950.png",
+    "1406CBC7.png",
+    "Dev/Go/环境配置问题.md",
+    "Growth/ChatGPT/指令角色.md",
+    "Dev/Basic/CMU/hashtable.md"
   ]
 }
