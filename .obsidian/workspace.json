@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Basic/operate system/操作系统书籍翻译.md",
+                "file": "Growth/研习策略.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Basic/operate system/操作系统书籍翻译.md",
+                "file": "Growth/研习策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Basic/operate system/操作系统书籍翻译.md",
+                "file": "Growth/研习策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/Basic/operate system/操作系统书籍翻译.md"
+                "file": "Growth/研习策略.md"
               }
             }
           },
@@ -183,23 +183,41 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "651a5b9dc5df57f4",
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false
+    }
+  },
+  "active": "621aa3ae30e0b848",
   "lastOpenFiles": [
+    "Dev/Basic/xmind/operate system.xmind",
+    "Dev/Basic/xmind/CMU.xmind",
+    "Dev/Basic/xmind/CSAPP.xmind",
+    "Dev/Basic/xmind",
+    "Dev/Basic/CMU/indexconcurr.md",
+    "Dev/Go/环境配置问题.md",
+    "Dev/Basic/CMU/hashtable.md",
+    "Pasted image 20230419165938.png",
+    "Pasted image 20230419165950.png",
+    "Pasted image 20230419150445.png",
+    "Dev/Basic/operate system/操作系统书籍翻译.md",
     "Dev/Basic/operate system/Introduction.md",
     "Growth/思维导图.md",
     "Dev/基本安装.md",
-    "Growth/考研策略.md",
-    "Dev/云原生/K8s.md",
-    "Pasted image 20230419165950.png",
-    "1406CBC7.png",
-    "Dev/Go/环境配置问题.md",
-    "Growth/ChatGPT/指令角色.md",
-    "Dev/Basic/CMU/hashtable.md"
+    "Growth/研习策略.md"
   ]
 }
