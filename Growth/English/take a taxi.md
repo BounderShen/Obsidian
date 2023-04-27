@@ -83,7 +83,7 @@
 1. where are you going
 2. can you take me to 
 3. can you pull over after the lights
-4. just stop in front of the hotel I'll get out there
+4. you can just stop in front of the hotel I'll get out there
 5. how much do I owe you 
 6. how much do i need to pay you 
 7. how much is it .can I pay with card \ can i pay with wechat
@@ -104,4 +104,9 @@
 2. on credie card / wechat
 3. here's the machine
 4. You're welcome have a nice day
-5. 
+5. follow google maps
+##### practice
+1. do you usually take a taxi from the airport 
+2. has your taxi driver ever gotten lost
+3. do your taxi driver take you to the wrong location
+4. 

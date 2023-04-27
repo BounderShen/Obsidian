@@ -25,7 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Growth/Oral englis.md",
+                "file": "Growth/English/take a taxi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d089d2febdb8662d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Growth/English/take a taxi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "418e17f5ca5c3460",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Growth/English/public transit.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Growth/Oral englis.md",
+                "file": "Growth/English/public transit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Growth/Oral englis.md",
+                "file": "Growth/English/public transit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Growth/Oral englis.md"
+                "file": "Growth/English/public transit.md"
               }
             }
           },
@@ -214,10 +238,14 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "685fdbba69e316c2",
+  "active": "418e17f5ca5c3460",
   "lastOpenFiles": [
+    "Growth/English/public transit.md.baiduyun.uploading.cfg",
+    "Growth/English/take a taxi.md",
+    "Growth/English/public transit.md",
+    "Growth/English",
+    "Dev/Basic/CMU/优化.md",
     "Dev/Basic/CMU/sorting.md",
-    "Growth/Oral englis.md",
     "Dev/Basic/CMU/sorting.md.baiduyun.uploading.cfg",
     "Dev/Basic/xmind/微积分.xmind.baiduyun.uploading.cfg",
     "Dev/Basic/xmind/微积分.xmind",
