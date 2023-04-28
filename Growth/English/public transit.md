@@ -37,4 +37,26 @@
 1. you should leave the priority seating open for the elderly、disabled and woman with children
 ##### elderly 
 1. I always give up my seat to the elderly
-2. 
+##### disabled person 
+1. it's not easy to disabled person to take public transit ,so you should help them out if you can
+##### common phrases
+1. please move to the back of the bus cause normally people get crowed at in front of the bus
+2. the next station is 
+3. the door will open on the right/left
+4. please prepare to get off : you can stand up and move towards the door
+5. please stay clear of the door
+6. what buses stop here : where do those buses go
+7. does the nine nine nine bus stop here
+8. where is the nearest  bus stop / subway station
+9. how much is the bus fare
+##### homework
+1. the person who works at front of desk at the hotel 
+2. hi there how can i help you ,can you answer a few question about the public transit for me.of course what do you need to know . i want to go the museum is is easy to get by transit .yes it's quiet easy there's a subway station down the street .oh good how much is subway fare here it is 2$ much cheaper than take taxi
+3. okay ,great .and do i just take that one subway line  do i need to transfer.you can't need to transfer. that subway can take you right here.oh that's good what is the subway stop called .it's call beijing museum .so you can't miss it .wonderful.and do you know how long do it take. probably 30 minutes total
+##### at the bus stop
+1. does the one one one bus stop here?yeah i think so .you can double check the board there.oh great thank you how often the buses come.about 15 minutes but it'll take longger if there's a tranffic jam
+2. I never see any trams in Beijing
+##### discusiion question
+1. do you like to take public transit while traveling
+2. have you ever gotten lost on public transit
+3. do you ever ask stranger for help on public transit
