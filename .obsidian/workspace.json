@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Basic/CMU/10 sorting.md",
+                "file": "Growth/English/问路.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,21 +42,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "90dc6a88e8f55ffc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/Basic/CMU/分布式.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Basic/CMU/分布式.md",
+                "file": "Growth/English/问路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Basic/CMU/分布式.md",
+                "file": "Growth/English/问路.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/Basic/CMU/分布式.md"
+                "file": "Growth/English/问路.md"
               }
             }
           },
@@ -210,17 +197,23 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "90dc6a88e8f55ffc",
+  "active": "c2459c109df47597",
   "lastOpenFiles": [
+    "Dev/Basic/CMU/两阶段锁.md",
+    "Growth/English/问路.md",
+    "Dev/Basic/CMU/未命名.md",
+    "Dev/Basic/CMU/并发控制.md",
+    "Growth/自我认知.md",
+    "Growth/Life.md",
+    "Dev/Basic/operate system/页表.md",
+    "Dev/Basic/operate system/Introduction.md",
+    "Dev/Basic/CMU/优化.md",
+    "Dev/Basic/CMU/分布式.md",
     "Dev/Basic/xmind/自我介绍.xmind",
     "Dev/Basic/CMU/恢复.md",
-    "Dev/Basic/CMU/分布式.md",
     "Dev/Basic/CMU/日志.md",
     "Dev/Basic/CMU/多版本.md",
     "Dev/Basic/CMU/时间戳顺序.md",
-    "Dev/Basic/CMU/两阶段锁.md",
-    "Dev/Basic/CMU/并发控制.md",
-    "Dev/Basic/CMU/优化.md",
     "Dev/Basic/CMU/8 tree.md",
     "Dev/Basic/CMU/3 storage.md",
     "Dev/Basic/CMU/10 sorting.md",
@@ -234,22 +227,16 @@
     "Growth/ChatGPT/开发者使用指南.md",
     "Growth/English/public transit.md",
     "Growth/English/public transit.md.baiduyun.uploading.cfg",
-    "Growth/English/take a taxi.md",
     "Growth/English",
     "Dev/Basic/CMU/sorting.md.baiduyun.uploading.cfg",
     "Dev/Basic/xmind/微积分.xmind.baiduyun.uploading.cfg",
     "Dev/Basic/xmind/微积分.xmind",
     "Dev/Basic/xmind/CMU.xmind.baiduyun.uploading.cfg",
     "Dev/Basic/CMU/indexconcurr.md.baiduyun.uploading.cfg",
-    "Dev/Go/环境配置问题.md",
     "Dev/Basic/xmind/operate system.xmind",
     "Dev/Basic/xmind/CMU.xmind",
-    "Dev/Basic/xmind/CSAPP.xmind",
     "Pasted image 20230419165938.png",
     "Pasted image 20230419165950.png",
-    "Pasted image 20230419150445.png",
-    "Dev/Basic/operate system/操作系统书籍翻译.md",
-    "Dev/Basic/operate system/Introduction.md",
-    "Growth/思维导图.md"
+    "Pasted image 20230419150445.png"
   ]
 }
