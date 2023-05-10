@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Growth/English/changing your flight.md",
+                "file": "Dev/Basic/CMU/日志.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Growth/English/changing your flight.md",
+                "file": "Dev/Basic/CMU/日志.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Growth/English/changing your flight.md",
+                "file": "Dev/Basic/CMU/日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Growth/English/changing your flight.md"
+                "file": "Dev/Basic/CMU/日志.md"
               }
             }
           },
@@ -199,9 +199,17 @@
   },
   "active": "c2459c109df47597",
   "lastOpenFiles": [
-    "Growth/English/问路.md",
-    "Growth/English/changing your flight.md",
+    "shadowPageCommit.png",
+    "img/shadowPageCommit.png",
+    "shadowPage.png",
+    "img/shadowPage.png",
+    "shadow.png",
+    "img/shadow.png",
+    "img/屏幕截图 2023-05-10 192946.png",
+    "Dev/Basic/CMU/多版本.md",
     "Dev/Basic/CMU/时间戳顺序.md",
+    "Growth/English/changing your flight.md",
+    "Growth/English/问路.md",
     "Dev/Basic/CMU/两阶段锁.md",
     "Dev/Basic/CMU/未命名.md",
     "Dev/Basic/CMU/并发控制.md",
@@ -214,7 +222,6 @@
     "Dev/Basic/xmind/自我介绍.xmind",
     "Dev/Basic/CMU/恢复.md",
     "Dev/Basic/CMU/日志.md",
-    "Dev/Basic/CMU/多版本.md",
     "Dev/Basic/CMU/8 tree.md",
     "Dev/Basic/CMU/3 storage.md",
     "Dev/Basic/CMU/10 sorting.md",
@@ -225,7 +232,6 @@
     "Dev/Basic/CMU/12 执行查询.md",
     "Dev/tools/neoVim.md",
     "Dev/tools/Linux.md",
-    "Growth/ChatGPT/开发者使用指南.md",
     "Growth/English/public transit.md.baiduyun.uploading.cfg",
     "Growth/English",
     "Dev/Basic/CMU/sorting.md.baiduyun.uploading.cfg",
