@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Basic/CMU/日志.md",
+                "file": "Dev/tools/arch.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Basic/CMU/日志.md",
+                "file": "Dev/tools/arch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Basic/CMU/日志.md",
+                "file": "Dev/tools/arch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/Basic/CMU/日志.md"
+                "file": "Dev/tools/arch.md"
               }
             }
           },
@@ -199,13 +199,33 @@
   },
   "active": "c2459c109df47597",
   "lastOpenFiles": [
+    "Dev/tools/arch.md.baiduyun.uploading.cfg",
+    "Growth/Note/2023-05-12.md.baiduyun.uploading.cfg",
+    "Growth/Course/108股票.md.baiduyun.uploading.cfg",
+    "Dev/算法/第一天.md.baiduyun.uploading.cfg",
+    "Dev/tools/lazyvim.md.baiduyun.uploading.cfg",
+    "Dev/Basic/operate system/页表.md.baiduyun.uploading.cfg",
+    "Growth/Course/108股票.md",
+    "Dev/tools/arch.md",
+    "Growth/Note/2023-05-12.md",
+    "Dev/算法/第一天.md",
+    "Dev/算法",
+    "img/低点.png.baiduyun.uploading.cfg",
+    "Dev/Basic/CMU/恢复.md.baiduyun.uploading.cfg",
+    "低点.png.baiduyun.uploading.cfg",
+    "低点.png",
+    "img/低点.png",
+    "Dev/Basic/CMU/恢复.md",
+    "lsn.png.baiduyun.uploading.cfg",
+    "lsn.png",
+    "img/lsn.png",
+    "Dev/Basic/CMU/日志.md",
     "shadowPageCommit.png",
     "img/shadowPageCommit.png",
     "shadowPage.png",
     "img/shadowPage.png",
     "shadow.png",
     "img/shadow.png",
-    "img/屏幕截图 2023-05-10 192946.png",
     "Dev/Basic/CMU/多版本.md",
     "Dev/Basic/CMU/时间戳顺序.md",
     "Growth/English/changing your flight.md",
@@ -219,30 +239,11 @@
     "Dev/Basic/operate system/Introduction.md",
     "Dev/Basic/CMU/优化.md",
     "Dev/Basic/CMU/分布式.md",
-    "Dev/Basic/xmind/自我介绍.xmind",
-    "Dev/Basic/CMU/恢复.md",
-    "Dev/Basic/CMU/日志.md",
     "Dev/Basic/CMU/8 tree.md",
     "Dev/Basic/CMU/3 storage.md",
     "Dev/Basic/CMU/10 sorting.md",
     "Dev/Basic/CMU/11 Join.md",
     "Dev/Basic/CMU/indexconcurr.md",
-    "Dev/Basic/CMU/7 hashtable.md",
-    "Dev/Basic/CMU/6 BufferBool.md",
-    "Dev/Basic/CMU/12 执行查询.md",
-    "Dev/tools/neoVim.md",
-    "Dev/tools/Linux.md",
-    "Growth/English/public transit.md.baiduyun.uploading.cfg",
-    "Growth/English",
-    "Dev/Basic/CMU/sorting.md.baiduyun.uploading.cfg",
-    "Dev/Basic/xmind/微积分.xmind.baiduyun.uploading.cfg",
-    "Dev/Basic/xmind/微积分.xmind",
-    "Dev/Basic/xmind/CMU.xmind.baiduyun.uploading.cfg",
-    "Dev/Basic/CMU/indexconcurr.md.baiduyun.uploading.cfg",
-    "Dev/Basic/xmind/operate system.xmind",
-    "Dev/Basic/xmind/CMU.xmind",
-    "Pasted image 20230419165938.png",
-    "Pasted image 20230419165950.png",
-    "Pasted image 20230419150445.png"
+    "Dev/Basic/CMU/7 hashtable.md"
   ]
 }
