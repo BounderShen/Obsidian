@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/tools/arch.md",
+                "file": "Growth/Course/108股票.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/tools/arch.md",
+                "file": "Growth/Course/108股票.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/tools/arch.md",
+                "file": "Growth/Course/108股票.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/tools/arch.md"
+                "file": "Growth/Course/108股票.md"
               }
             }
           },
@@ -199,24 +199,24 @@
   },
   "active": "c2459c109df47597",
   "lastOpenFiles": [
-    "Dev/tools/arch.md.baiduyun.uploading.cfg",
-    "Growth/Note/2023-05-12.md.baiduyun.uploading.cfg",
-    "Growth/Course/108股票.md.baiduyun.uploading.cfg",
-    "Dev/算法/第一天.md.baiduyun.uploading.cfg",
-    "Dev/tools/lazyvim.md.baiduyun.uploading.cfg",
-    "Dev/Basic/operate system/页表.md.baiduyun.uploading.cfg",
-    "Growth/Course/108股票.md",
+    "低点.png.baiduyun.uploading.cfg",
+    "XiaoYi/课程/易经/卦序1.md.baiduyun.uploading.cfg",
+    "XiaoYi/读书笔记/跃进.md.baiduyun.uploading.cfg",
+    "XiaoYi/读书笔记/请停止无效的努力.md.baiduyun.uploading.cfg",
+    "XiaoYi/读书笔记/爱的艺术.md.baiduyun.uploading.cfg",
+    "XiaoYi/读书笔记/人生的智慧.md.baiduyun.uploading.cfg",
+    "XiaoYi/读书清单/2023年读书清单.md.baiduyun.uploading.cfg",
+    "XiaoYi/读书清单/2022年读书清单.md.baiduyun.uploading.cfg",
+    "XiaoYi/计划/人生计划.md.baiduyun.uploading.cfg",
+    "XiaoYi/梦想/面试/面试.md.baiduyun.uploading.cfg",
+    "XiaoYi/梦想/面试/11-20.md.baiduyun.uploading.cfg",
     "Dev/tools/arch.md",
+    "Growth/Course/108股票.md",
     "Growth/Note/2023-05-12.md",
     "Dev/算法/第一天.md",
-    "Dev/算法",
-    "img/低点.png.baiduyun.uploading.cfg",
-    "Dev/Basic/CMU/恢复.md.baiduyun.uploading.cfg",
-    "低点.png.baiduyun.uploading.cfg",
     "低点.png",
     "img/低点.png",
     "Dev/Basic/CMU/恢复.md",
-    "lsn.png.baiduyun.uploading.cfg",
     "lsn.png",
     "img/lsn.png",
     "Dev/Basic/CMU/日志.md",
