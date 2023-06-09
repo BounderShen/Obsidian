@@ -11,11 +11,9 @@
             "id": "c2459c109df47597",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Growth/Course/个人投资体系.md",
-                "mode": "source",
-                "source": false
+                "file": "lsn.png"
               }
             }
           },
@@ -26,36 +24,6 @@
               "type": "markdown",
               "state": {
                 "file": "Dev/Basic/CMU/12 执行查询.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1bd98f758252e5a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Growth/Course/108股票.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "021335849b402247",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7d731c961ae4dfce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Growth/Course/108股票.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Growth/Course/个人投资体系.md",
+                "file": "lsn.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Growth/Course/个人投资体系.md",
+                "file": "lsn.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Growth/Course/个人投资体系.md"
+                "file": "lsn.png"
               }
             }
           },
@@ -204,21 +172,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "random-note:开始漫游笔记": false
+      "random-note:开始漫游笔记": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "c2459c109df47597",
+  "active": "621aa3ae30e0b848",
   "lastOpenFiles": [
-    "Growth/Course/108股票.md",
+    "Misso/成长",
+    "Misso",
+    "未命名",
+    "shadowPageCommit.png",
     "Growth/Course/个人投资体系.md",
+    "Growth/Course/108股票.md",
     "Dev/Basic/CMU/12 执行查询.md",
     "Dev/tools/neoVim.md",
     "低点.png.baiduyun.uploading.cfg",
@@ -229,8 +201,6 @@
     "XiaoYi/读书笔记/人生的智慧.md.baiduyun.uploading.cfg",
     "XiaoYi/读书清单/2023年读书清单.md.baiduyun.uploading.cfg",
     "XiaoYi/读书清单/2022年读书清单.md.baiduyun.uploading.cfg",
-    "XiaoYi/计划/人生计划.md.baiduyun.uploading.cfg",
-    "XiaoYi/梦想/面试/面试.md.baiduyun.uploading.cfg",
     "Dev/tools/arch.md",
     "Growth/Note/2023-05-12.md",
     "Dev/算法/第一天.md",
@@ -240,7 +210,6 @@
     "lsn.png",
     "img/lsn.png",
     "Dev/Basic/CMU/日志.md",
-    "shadowPageCommit.png",
     "img/shadowPageCommit.png",
     "shadowPage.png",
     "img/shadowPage.png",
@@ -261,7 +230,6 @@
     "Dev/Basic/CMU/分布式.md",
     "Dev/Basic/CMU/8 tree.md",
     "Dev/Basic/CMU/3 storage.md",
-    "Dev/Basic/CMU/10 sorting.md",
-    "Dev/Basic/CMU/11 Join.md"
+    "Dev/Basic/CMU/10 sorting.md"
   ]
 }
