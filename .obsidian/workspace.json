@@ -4,32 +4,72 @@
     "type": "split",
     "children": [
       {
-        "id": "d26ceb8d897927c7",
-        "type": "tabs",
+        "id": "033232b523e0c08d",
+        "type": "split",
         "children": [
           {
-            "id": "c2459c109df47597",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "lsn.png"
+            "id": "d26ceb8d897927c7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c2459c109df47597",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "cbbfb8270de4cc78",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Growth/Note/2023-06-11.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "84a31ba58817bdd8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Growth/Note/2023-06-08.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "cbbfb8270de4cc78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/Basic/CMU/12 执行查询.md",
-                "mode": "source",
-                "source": false
+            "id": "d33fe956646376fa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "92e16dc6ba7f0976",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -103,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lsn.png",
+                "file": "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lsn.png",
+                "file": "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lsn.png"
+                "file": "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md"
               }
             }
           },
@@ -183,31 +223,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "621aa3ae30e0b848",
+  "active": "92e16dc6ba7f0976",
   "lastOpenFiles": [
+    "Growth/Note/2023-06-11.md",
+    "Growth/Note/2023-06-10.md",
+    "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
+    "Growth/Note/2023-06-08.md",
+    "Dev/Basic/CMU/12 执行查询.md",
+    "lsn.png",
+    "Misso/掘金之旅/投资分析与复盘",
+    "Misso/掘金之旅",
     "Misso/成长",
     "Misso",
     "未命名",
     "shadowPageCommit.png",
     "Growth/Course/个人投资体系.md",
     "Growth/Course/108股票.md",
-    "Dev/Basic/CMU/12 执行查询.md",
     "Dev/tools/neoVim.md",
     "低点.png.baiduyun.uploading.cfg",
     "XiaoYi/课程/易经/卦序1.md.baiduyun.uploading.cfg",
     "XiaoYi/读书笔记/跃进.md.baiduyun.uploading.cfg",
     "XiaoYi/读书笔记/请停止无效的努力.md.baiduyun.uploading.cfg",
     "XiaoYi/读书笔记/爱的艺术.md.baiduyun.uploading.cfg",
-    "XiaoYi/读书笔记/人生的智慧.md.baiduyun.uploading.cfg",
-    "XiaoYi/读书清单/2023年读书清单.md.baiduyun.uploading.cfg",
-    "XiaoYi/读书清单/2022年读书清单.md.baiduyun.uploading.cfg",
     "Dev/tools/arch.md",
     "Growth/Note/2023-05-12.md",
     "Dev/算法/第一天.md",
     "低点.png",
     "img/低点.png",
     "Dev/Basic/CMU/恢复.md",
-    "lsn.png",
     "img/lsn.png",
     "Dev/Basic/CMU/日志.md",
     "img/shadowPageCommit.png",
@@ -227,9 +270,6 @@
     "Dev/Basic/operate system/页表.md",
     "Dev/Basic/operate system/Introduction.md",
     "Dev/Basic/CMU/优化.md",
-    "Dev/Basic/CMU/分布式.md",
-    "Dev/Basic/CMU/8 tree.md",
-    "Dev/Basic/CMU/3 storage.md",
-    "Dev/Basic/CMU/10 sorting.md"
+    "Dev/Basic/CMU/分布式.md"
   ]
 }
