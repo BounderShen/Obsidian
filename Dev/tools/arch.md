@@ -19,4 +19,8 @@
 1. 主要问题是前面没有配置`vim /etc/pacman.conf`:在里面添加`[archlinuxcn] SigLevel = Optional TrustAll Server = https://repo.archlinuxcn.org/arch`
 2. `pacman -Sy`
 3. `pacman archlinuxcn-keyring`
-4. 
+#### 出现的问题
+##### Git无法连接
+1. `ssh -T -P 443 `
+##### wlan0关闭
+1. `rfkill unblock wifi`
