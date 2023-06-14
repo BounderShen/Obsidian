@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/tools/arch.md",
+                "file": "Growth/Course/音乐/练习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d24e3acd92f01a95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/tools/arch.md",
+                "file": "Growth/Course/音乐/练习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/tools/arch.md",
+                "file": "Growth/Course/音乐/练习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev/tools/arch.md"
+                "file": "Growth/Course/音乐/练习.md"
               }
             }
           },
@@ -175,20 +187,30 @@
   },
   "active": "92e16dc6ba7f0976",
   "lastOpenFiles": [
-    "Growth/Plan/CMU、分布式系统、计算机网络计划.md",
+    "Growth/Course/音乐/呼吸.md",
+    "Growth/Course/音乐/练习.md",
+    "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
+    "Growth/Course/30-40.md",
+    "Growth/Course/音乐",
+    "InvestReview/note/第一天.md",
+    "InvestReview/prac",
+    "InvestReview/note",
+    "Dev/Basic/CMU/12 执行查询.md",
+    "InvestReview",
+    "新建文件夹",
     "Dev/tools/arch.md",
+    "OKR.md",
+    "Growth/Plan/CMU、分布式系统、计算机网络计划.md",
     "Dev/Installatin.md",
     "Dev/tools/Linux.md",
     "Dev/tools/neoVim.md",
     "Dev/tools/lazyvim.md",
-    "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
     "Growth/Note/2023-06-11.md",
     "Growth/Note/2023-06-08.md",
     "Dev/algo/day1.md",
     "Dev/云原生/K8s.md",
     "Idea/小项目.md",
     "Growth/Note/2023-06-10.md",
-    "Dev/Basic/CMU/12 执行查询.md",
     "lsn.png",
     "Misso/掘金之旅/投资分析与复盘",
     "Misso/掘金之旅",
@@ -198,11 +220,6 @@
     "shadowPageCommit.png",
     "Growth/Course/个人投资体系.md",
     "Growth/Course/108股票.md",
-    "低点.png.baiduyun.uploading.cfg",
-    "XiaoYi/课程/易经/卦序1.md.baiduyun.uploading.cfg",
-    "XiaoYi/读书笔记/跃进.md.baiduyun.uploading.cfg",
-    "XiaoYi/读书笔记/请停止无效的努力.md.baiduyun.uploading.cfg",
-    "XiaoYi/读书笔记/爱的艺术.md.baiduyun.uploading.cfg",
     "Growth/Note/2023-05-12.md",
     "低点.png",
     "img/低点.png",
@@ -215,11 +232,6 @@
     "shadow.png",
     "img/shadow.png",
     "Dev/Basic/CMU/多版本.md",
-    "Dev/Basic/CMU/时间戳顺序.md",
-    "Growth/English/changing your flight.md",
-    "Growth/English/问路.md",
-    "Dev/Basic/CMU/两阶段锁.md",
-    "Dev/Basic/CMU/未命名.md",
-    "Dev/Basic/CMU/并发控制.md"
+    "Dev/Basic/CMU/时间戳顺序.md"
   ]
 }
