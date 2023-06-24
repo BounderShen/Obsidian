@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misso/成长/Day2.md",
+                "file": "Growth/Course/41-50.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misso/成长/Day2.md",
+                "file": "Growth/Course/41-50.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misso/成长/Day2.md",
+                "file": "Growth/Course/41-50.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misso/成长/Day2.md"
+                "file": "Growth/Course/41-50.md"
               }
             }
           },
@@ -200,11 +200,14 @@
   },
   "active": "7e8c0097e05011ef",
   "lastOpenFiles": [
-    "Growth/Note/2023-06-16.md",
-    "Misso/成长/Day2.md",
-    "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
     "Growth/Course/30-40.md",
+    "Growth/Course/41-50.md",
     "Growth/Course/108股票.md",
+    "Misso/掘金之旅/投资分析与复盘/股票大作手.md",
+    "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
+    "Growth/Note/2023-06-23.md",
+    "Misso/成长/Day2.md",
+    "Growth/Note/2023-06-16.md",
     "Growth/Note/2023-06-14.md",
     "Growth/Note/2023-06-11.md",
     "Growth/Note/未命名.md",
@@ -228,7 +231,6 @@
     "Growth/Note/2023-06-08.md",
     "Dev/algo/day1.md",
     "Dev/云原生/K8s.md",
-    "Idea/小项目.md",
     "lsn.png",
     "Misso/掘金之旅/投资分析与复盘",
     "Misso/掘金之旅",
@@ -236,8 +238,6 @@
     "Misso",
     "未命名",
     "shadowPageCommit.png",
-    "Growth/Course/个人投资体系.md",
-    "Growth/Note/2023-05-12.md",
     "低点.png",
     "img/低点.png",
     "img/lsn.png",
