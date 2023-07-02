@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Growth/Note/2023-06-29.md",
+                "file": "Growth/Note/2023-07-02.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Growth/Note/2023-06-29.md",
+                "file": "Growth/Note/2023-07-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Growth/Note/2023-06-29.md",
+                "file": "Growth/Note/2023-07-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Growth/Note/2023-06-29.md"
+                "file": "Growth/Note/2023-07-02.md"
               }
             }
           },
@@ -213,6 +213,7 @@
   "active": "7e8c0097e05011ef",
   "lastOpenFiles": [
     "Misso/成长/6月最后一周.md",
+    "Growth/Note/2023-07-02.md",
     "Growth/Note/2023-06-29.md",
     "Growth/张筱雨/微博.md",
     "Growth/张筱雨",
@@ -243,7 +244,6 @@
     "Dev/Installatin.md",
     "Dev/tools/Linux.md",
     "Dev/tools/neoVim.md",
-    "Dev/tools/lazyvim.md",
     "lsn.png",
     "Misso/掘金之旅/投资分析与复盘",
     "Misso/掘金之旅",
