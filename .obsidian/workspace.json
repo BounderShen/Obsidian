@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Growth/Note/2023-07-02.md",
+                "file": "Growth/Course/缠论/1-10.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Growth/张筱雨/微博.md",
+                "file": "Misso/成长/7月.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Growth/Note/2023-07-02.md",
+                "file": "Growth/Course/缠论/1-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Growth/Note/2023-07-02.md",
+                "file": "Growth/Course/缠论/1-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Growth/Note/2023-07-02.md"
+                "file": "Growth/Course/缠论/1-10.md"
               }
             }
           },
@@ -212,10 +212,18 @@
   },
   "active": "7e8c0097e05011ef",
   "lastOpenFiles": [
-    "Misso/成长/6月最后一周.md",
-    "Growth/Note/2023-07-02.md",
-    "Growth/Note/2023-06-29.md",
+    "Growth/天堂论坛/灵草灵宠.md",
+    "Growth/Course/缠论/1-10.md",
+    "Growth/Course/缠论",
+    "Misso/成长/7月.md",
     "Growth/张筱雨/微博.md",
+    "Growth/Note/2023-07-13.md",
+    "Growth/人生设计课程.md",
+    "Growth/天堂论坛/开悟其实很简单.md",
+    "Growth/Note/2023-07-02.md",
+    "Growth/天堂论坛",
+    "Misso/成长/6月最后一周.md",
+    "Growth/Note/2023-06-29.md",
     "Growth/张筱雨",
     "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
     "Growth/Course/个人投资体系.md",
@@ -238,17 +246,9 @@
     "Dev/Basic/CMU/12 执行查询.md",
     "InvestReview",
     "新建文件夹",
-    "Dev/tools/arch.md",
-    "OKR.md",
-    "Growth/Plan/CMU、分布式系统、计算机网络计划.md",
-    "Dev/Installatin.md",
-    "Dev/tools/Linux.md",
-    "Dev/tools/neoVim.md",
     "lsn.png",
     "Misso/掘金之旅/投资分析与复盘",
     "Misso/掘金之旅",
-    "Misso/成长",
-    "Misso",
     "shadowPageCommit.png",
     "低点.png",
     "img/低点.png",
