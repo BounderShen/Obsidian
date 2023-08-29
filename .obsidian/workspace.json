@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misso/成长/八月.md",
+                "file": "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Growth/Course/雅思/预备/词汇.md",
+                "file": "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Growth/Course/雅思/预备/词汇.md",
+                "file": "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Growth/Course/雅思/预备/词汇.md"
+                "file": "Wisdom/孙子兵法/孙子兵法与人力自动化.md"
               }
             }
           },
@@ -198,15 +197,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7e8c0097e05011ef",
+  "active": "92e16dc6ba7f0976",
   "lastOpenFiles": [
+    "Growth/Course/进阶缠论/背驰点.md",
+    "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
+    "Wisdom/孙子兵法",
     "Growth/Course/进阶缠论/中枢走势类型和买卖点.md",
+    "Wisdom/易经/第一天.md",
+    "Wisdom/易经",
+    "Wisdom/国学/未命名",
+    "Wisdom/国学",
+    "Wisdom",
+    "Misso/成长/八月.md",
+    "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
     "Growth/Course/雅思/预备/词汇.md",
     "Growth/Course/雅思/预备",
     "Growth/task/系统.md",
-    "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
     "Paper/gfs.pdf",
-    "Misso/成长/八月.md",
     "Misso/成长/7月.md",
     "Growth/Course/30-40.md",
     "Growth/Course/进阶缠论/分型、笔与线段篇.md",
@@ -227,15 +234,7 @@
     "Growth/Book/底层逻辑.md",
     "Growth/Course/缠论/分型、笔、线段篇.md",
     "Growth/Course/缠论/15-20.md",
-    "Growth/天堂论坛/灵草灵宠.md",
     "Growth/Course/缠论",
-    "Growth/Note/2023-07-13.md",
-    "Growth/天堂论坛/开悟其实很简单.md",
-    "Growth/天堂论坛",
-    "Growth/张筱雨",
-    "Growth/Course/音乐",
-    "InvestReview/prac",
-    "InvestReview/note",
     "lsn.png",
     "shadowPageCommit.png",
     "低点.png",
