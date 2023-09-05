@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
+                "file": "Growth/Course/缠论/分型、笔、线段篇.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
+                "file": "Growth/Course/进阶缠论/同级别分解篇.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
+                "file": "Growth/Course/进阶缠论/同级别分解篇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
+                "file": "Growth/Course/进阶缠论/同级别分解篇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wisdom/孙子兵法/孙子兵法与人力自动化.md"
+                "file": "Growth/Course/进阶缠论/同级别分解篇.md"
               }
             }
           },
@@ -197,44 +198,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "92e16dc6ba7f0976",
+  "active": "d24e3acd92f01a95",
   "lastOpenFiles": [
-    "Growth/Course/进阶缠论/背驰点.md",
-    "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
-    "Wisdom/孙子兵法",
     "Growth/Course/进阶缠论/中枢走势类型和买卖点.md",
+    "Growth/Course/进阶缠论/同级别分解篇.md",
+    "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
     "Wisdom/易经/第一天.md",
+    "Growth/Note/2023-09-04.md",
+    "Growth/张筱雨/微博.md",
+    "Growth/Note/未命名.md",
+    "Growth/白诗诗/周受资：高级人才的五个基本素养.md",
+    "Growth/白诗诗/触动.md",
+    "Growth/Course/个人投资体系.md",
+    "Growth/Course/缠论/1-10.md",
+    "Growth/Course/缠论/分型、笔、线段篇.md",
+    "Growth/Course/进阶缠论/分型、笔与线段篇.md",
+    "Growth/Course/进阶缠论/背驰点.md",
+    "Growth/Course/雅思/video.md",
+    "Growth/Course/雅思/预备/video",
+    "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
+    "Growth/Course/雅思/预备/词汇.md",
+    "Wisdom/孙子兵法",
     "Wisdom/易经",
     "Wisdom/国学/未命名",
     "Wisdom/国学",
     "Wisdom",
     "Misso/成长/八月.md",
-    "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
-    "Growth/Course/雅思/预备/词汇.md",
     "Growth/Course/雅思/预备",
     "Growth/task/系统.md",
     "Paper/gfs.pdf",
     "Misso/成长/7月.md",
     "Growth/Course/30-40.md",
-    "Growth/Course/进阶缠论/分型、笔与线段篇.md",
     "Growth/Life.md",
     "Growth/Course/进阶缠论",
     "Growth/自我认知.md",
     "Growth/运.md",
     "Growth/思维导图.md",
     "Growth/研习策略.md",
-    "Growth/人生设计课程.md",
-    "Growth/张筱雨/微博.md",
-    "Growth/白诗诗/周受资：高级人才的五个基本素养.md",
-    "Growth/白诗诗/触动.md",
-    "Growth/白诗诗/能力.md",
-    "Growth/白诗诗/逻辑.md",
-    "Growth/Course/缠论/1-10.md",
     "Growth/Course/雅思",
-    "Growth/Book/底层逻辑.md",
-    "Growth/Course/缠论/分型、笔、线段篇.md",
-    "Growth/Course/缠论/15-20.md",
-    "Growth/Course/缠论",
     "lsn.png",
     "shadowPageCommit.png",
     "低点.png",
