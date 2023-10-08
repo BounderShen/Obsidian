@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Growth/Course/缠论/分型、笔、线段篇.md",
+                "file": "Wisdom/针灸/任脉经穴篇.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Growth/Course/进阶缠论/同级别分解篇.md",
+                "file": "Wisdom/易经/第一天.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Growth/Course/进阶缠论/同级别分解篇.md",
+                "file": "Wisdom/针灸/任脉经穴篇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Growth/Course/进阶缠论/同级别分解篇.md",
+                "file": "Wisdom/针灸/任脉经穴篇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Growth/Course/进阶缠论/同级别分解篇.md"
+                "file": "Wisdom/针灸/任脉经穴篇.md"
               }
             }
           },
@@ -176,6 +175,16 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "0ef419ae0acf1f5d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -198,12 +207,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d24e3acd92f01a95",
+  "active": "92e16dc6ba7f0976",
   "lastOpenFiles": [
-    "Growth/Course/进阶缠论/中枢走势类型和买卖点.md",
-    "Growth/Course/进阶缠论/同级别分解篇.md",
-    "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
+    "Wisdom/天纪/一.md",
+    "Wisdom/针灸/任脉经穴篇.md",
+    "Wisdom/针灸",
+    "Growth/Course/摩尔缠论/11.md",
+    "Wisdom/天纪",
+    "Growth/Course/摩尔缠论/10.md",
+    "Growth/Course/摩尔缠论/1 起手三式.md",
+    "Growth/Course/缠论/分型、笔、线段篇.md",
     "Wisdom/易经/第一天.md",
+    "Growth/Course/摩尔缠论/二次总结.md",
+    "Growth/Course/进阶缠论/实战操作策略篇.md",
+    "Growth/Course/摩尔缠论",
+    "Growth/Course/进阶缠论/同级别分解篇.md",
+    "Growth/Course/进阶缠论/中枢走势类型和买卖点.md",
+    "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
     "Growth/Note/2023-09-04.md",
     "Growth/张筱雨/微博.md",
     "Growth/Note/未命名.md",
@@ -211,7 +231,6 @@
     "Growth/白诗诗/触动.md",
     "Growth/Course/个人投资体系.md",
     "Growth/Course/缠论/1-10.md",
-    "Growth/Course/缠论/分型、笔、线段篇.md",
     "Growth/Course/进阶缠论/分型、笔与线段篇.md",
     "Growth/Course/进阶缠论/背驰点.md",
     "Growth/Course/雅思/video.md",
@@ -226,16 +245,6 @@
     "Misso/成长/八月.md",
     "Growth/Course/雅思/预备",
     "Growth/task/系统.md",
-    "Paper/gfs.pdf",
-    "Misso/成长/7月.md",
-    "Growth/Course/30-40.md",
-    "Growth/Life.md",
-    "Growth/Course/进阶缠论",
-    "Growth/自我认知.md",
-    "Growth/运.md",
-    "Growth/思维导图.md",
-    "Growth/研习策略.md",
-    "Growth/Course/雅思",
     "lsn.png",
     "shadowPageCommit.png",
     "低点.png",
