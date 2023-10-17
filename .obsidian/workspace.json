@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wisdom/针灸/任脉经穴篇.md",
+                "file": "Wisdom/针灸/针灸04.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wisdom/针灸/任脉经穴篇.md",
+                "file": "Wisdom/针灸/针灸04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wisdom/针灸/任脉经穴篇.md",
+                "file": "Wisdom/针灸/针灸04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wisdom/针灸/任脉经穴篇.md"
+                "file": "Wisdom/针灸/针灸04.md"
               }
             }
           },
@@ -209,8 +209,29 @@
   },
   "active": "92e16dc6ba7f0976",
   "lastOpenFiles": [
-    "Wisdom/天纪/一.md",
+    "Misso/摩尔视频笔记/本质线段之中枢线.md",
+    "Wisdom/针灸/针灸04.md",
+    "img/2242B65E.png",
+    "Misso/摩尔视频笔记/线段中枢归一完整画法.md",
+    "Wisdom/针灸/针灸篇03.md",
+    "Misso/摩尔视频笔记",
+    "Misso/摩缠/13.md",
+    "img/640.png",
+    "Wisdom/针灸/针灸篇02.md",
+    "lsn.png",
+    "低点.png",
+    "Misso/摩缠",
+    "Misso/量价学/量价.md",
+    "img/640 1.jpg",
+    "img/640.jpg",
+    "640.jpg",
+    "Wisdom/针灸/督脉经穴篇.md",
+    "Misso/量价学",
+    "Wisdom/针灸/中穴天突穴.md",
     "Wisdom/针灸/任脉经穴篇.md",
+    "Misso/筹码学/庄家.md",
+    "Misso/筹码学",
+    "Wisdom/天纪/一.md",
     "Wisdom/针灸",
     "Growth/Course/摩尔缠论/11.md",
     "Wisdom/天纪",
@@ -228,32 +249,11 @@
     "Growth/张筱雨/微博.md",
     "Growth/Note/未命名.md",
     "Growth/白诗诗/周受资：高级人才的五个基本素养.md",
-    "Growth/白诗诗/触动.md",
-    "Growth/Course/个人投资体系.md",
-    "Growth/Course/缠论/1-10.md",
-    "Growth/Course/进阶缠论/分型、笔与线段篇.md",
-    "Growth/Course/进阶缠论/背驰点.md",
-    "Growth/Course/雅思/video.md",
     "Growth/Course/雅思/预备/video",
-    "Misso/掘金之旅/投资分析与复盘/投资干货帖子.md",
-    "Growth/Course/雅思/预备/词汇.md",
     "Wisdom/孙子兵法",
     "Wisdom/易经",
-    "Wisdom/国学/未命名",
-    "Wisdom/国学",
-    "Wisdom",
-    "Misso/成长/八月.md",
-    "Growth/Course/雅思/预备",
-    "Growth/task/系统.md",
-    "lsn.png",
     "shadowPageCommit.png",
-    "低点.png",
     "img/低点.png",
-    "img/lsn.png",
-    "img/shadowPageCommit.png",
-    "shadowPage.png",
-    "img/shadowPage.png",
-    "shadow.png",
-    "img/shadow.png"
+    "img/lsn.png"
   ]
 }
