@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wisdom/针灸/针灸04.md",
+                "file": "Wisdom/针灸/针灸06.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,6 +38,18 @@
               "type": "markdown",
               "state": {
                 "file": "Growth/Course/雅思/预备/词汇.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27b5a18618bd49be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wisdom/针灸/针灸07.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wisdom/针灸/针灸04.md",
+                "file": "Wisdom/针灸/针灸06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wisdom/针灸/针灸04.md",
+                "file": "Wisdom/针灸/针灸06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wisdom/针灸/针灸04.md"
+                "file": "Wisdom/针灸/针灸06.md"
               }
             }
           },
@@ -209,8 +221,16 @@
   },
   "active": "92e16dc6ba7f0976",
   "lastOpenFiles": [
-    "Misso/摩尔视频笔记/本质线段之中枢线.md",
+    "Wisdom/针灸/针灸07.md",
+    "Wisdom/针灸/针灸06.md",
+    "Wisdom/神农本草经/本草经2.md",
+    "Wisdom/神农本草经/本草经.md",
+    "img/3F0E7D4B.gif",
+    "Wisdom/神农本草经",
+    "Wisdom/针灸/针灸05.md",
     "Wisdom/针灸/针灸04.md",
+    "Misso/摩尔视频笔记/线段中枢的唯一.md",
+    "Misso/摩尔视频笔记/本质线段之中枢线.md",
     "img/2242B65E.png",
     "Misso/摩尔视频笔记/线段中枢归一完整画法.md",
     "Wisdom/针灸/针灸篇03.md",
@@ -243,17 +263,9 @@
     "Growth/Course/进阶缠论/实战操作策略篇.md",
     "Growth/Course/摩尔缠论",
     "Growth/Course/进阶缠论/同级别分解篇.md",
-    "Growth/Course/进阶缠论/中枢走势类型和买卖点.md",
-    "Wisdom/孙子兵法/孙子兵法与人力自动化.md",
-    "Growth/Note/2023-09-04.md",
-    "Growth/张筱雨/微博.md",
-    "Growth/Note/未命名.md",
-    "Growth/白诗诗/周受资：高级人才的五个基本素养.md",
     "Growth/Course/雅思/预备/video",
     "Wisdom/孙子兵法",
-    "Wisdom/易经",
     "shadowPageCommit.png",
-    "img/低点.png",
-    "img/lsn.png"
+    "img/低点.png"
   ]
 }
