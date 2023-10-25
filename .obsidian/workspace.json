@@ -49,13 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wisdom/针灸/针灸07.md",
+                "file": "Wisdom/针灸/针灸08.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wisdom/针灸/针灸06.md",
+                "file": "Wisdom/针灸/针灸08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wisdom/针灸/针灸06.md",
+                "file": "Wisdom/针灸/针灸08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wisdom/针灸/针灸06.md"
+                "file": "Wisdom/针灸/针灸08.md"
               }
             }
           },
@@ -219,8 +220,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "92e16dc6ba7f0976",
+  "active": "27b5a18618bd49be",
   "lastOpenFiles": [
+    "Wisdom/针灸/针灸09.md",
+    "Wisdom/神农本草经/神农本草经.md",
+    "Wisdom/针灸/针灸08.md",
     "Wisdom/针灸/针灸07.md",
     "Wisdom/针灸/针灸06.md",
     "Wisdom/神农本草经/本草经2.md",
@@ -259,10 +263,7 @@
     "Growth/Course/摩尔缠论/1 起手三式.md",
     "Growth/Course/缠论/分型、笔、线段篇.md",
     "Wisdom/易经/第一天.md",
-    "Growth/Course/摩尔缠论/二次总结.md",
-    "Growth/Course/进阶缠论/实战操作策略篇.md",
     "Growth/Course/摩尔缠论",
-    "Growth/Course/进阶缠论/同级别分解篇.md",
     "Growth/Course/雅思/预备/video",
     "Wisdom/孙子兵法",
     "shadowPageCommit.png",
