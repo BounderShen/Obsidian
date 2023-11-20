@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wisdom/针灸/针灸11.md",
+                "file": "Wisdom/健身功法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b6f6e00aeccddc1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misso/摩缠/二和三.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wisdom/针灸/针灸11.md",
+                "file": "Misso/摩缠/二和三.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wisdom/针灸/针灸11.md",
+                "file": "Misso/摩缠/二和三.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wisdom/针灸/针灸11.md"
+                "file": "Misso/摩缠/二和三.md"
               }
             }
           },
@@ -220,53 +232,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "27b5a18618bd49be",
+  "active": "b6f6e00aeccddc1b",
   "lastOpenFiles": [
-    "Wisdom/针灸/针灸10.md",
-    "Wisdom/针灸/针灸11.md",
-    "Wisdom/针灸/未命名.md",
-    "InvestReview/note/10月26日.md",
-    "Wisdom/黄帝内经/黄帝内径02.md",
-    "Wisdom/针灸/针灸08.md",
-    "Wisdom/黄帝内经",
-    "Wisdom/针灸/针灸09.md",
-    "Wisdom/神农本草经/神农本草经.md",
-    "Wisdom/针灸/针灸07.md",
+    "img/屏幕截图 2023-11-20 101507.png",
+    "img/屏幕截图 2023-11-20 162500.png",
+    "img/屏幕截图 2023-11-20 144249.png",
+    "Misso/摩缠/三阶段.md",
+    "Misso/摩缠/二和三.md",
     "Wisdom/针灸/针灸06.md",
-    "Wisdom/神农本草经/本草经2.md",
-    "Wisdom/神农本草经/本草经.md",
-    "img/3F0E7D4B.gif",
-    "Wisdom/神农本草经",
+    "Wisdom/易经/第一天.md",
+    "Growth/Course/雅思/预备/词汇.md",
+    "Wisdom/健身功法.md",
+    "img/屏幕截图 2023-11-18 224051.png",
+    "img/屏幕截图 2023-11-18 222818.png",
+    "img/屏幕截图 2023-11-18 173028.png",
+    "img/屏幕截图 2023-11-18 170849.png",
+    "img/屏幕截图 2023-11-18 162313.png",
+    "Misso/摩缠/13.md",
+    "InvestReview/币安投资.md",
+    "Wisdom/针灸/针灸篇02.md",
+    "Wisdom/针灸/中穴天突穴.md",
+    "Wisdom/针灸/针灸08.md",
     "Wisdom/针灸/针灸05.md",
     "Wisdom/针灸/针灸04.md",
-    "Misso/摩尔视频笔记/线段中枢的唯一.md",
-    "Misso/摩尔视频笔记/本质线段之中枢线.md",
-    "img/2242B65E.png",
-    "Misso/摩尔视频笔记/线段中枢归一完整画法.md",
-    "Wisdom/针灸/针灸篇03.md",
-    "Misso/摩尔视频笔记",
-    "Misso/摩缠/13.md",
-    "img/640.png",
-    "Wisdom/针灸/针灸篇02.md",
-    "lsn.png",
-    "低点.png",
-    "Misso/摩缠",
-    "Misso/量价学/量价.md",
-    "img/640 1.jpg",
-    "img/640.jpg",
-    "640.jpg",
-    "Wisdom/针灸/督脉经穴篇.md",
-    "Misso/量价学",
-    "Wisdom/针灸/中穴天突穴.md",
+    "Wisdom/针灸/未命名.md",
     "Wisdom/针灸/任脉经穴篇.md",
-    "Misso/筹码学/庄家.md",
+    "Wisdom/针灸/督脉经穴篇.md",
+    "Wisdom/针灸/针灸篇03.md",
+    "Wisdom/针灸/针灸07.md",
+    "InvestReview/note/11月7日.md",
+    "Misso/摩尔视频笔记/三进三防御.md",
+    "img/微信图片_20231105205728.jpg",
+    "img/微信图片_20231105203959.jpg",
+    "img/微信图片_20231105203758 1.jpg",
+    "Wisdom/针灸/针灸13.md",
+    "Wisdom/针灸/针灸12.md",
+    "Misso/摩尔视频笔记/本质之线段中枢和转折.md",
+    "Wisdom/针灸/针灸11.md",
+    "Wisdom/针灸/针灸10.md",
+    "Wisdom/黄帝内经",
+    "Wisdom/神农本草经",
+    "Misso/摩尔视频笔记",
+    "Misso/摩缠",
+    "Misso/量价学",
     "Misso/筹码学",
-    "Wisdom/天纪/一.md",
     "Wisdom/针灸",
     "Wisdom/天纪",
     "Growth/Course/摩尔缠论",
-    "Growth/Course/雅思/预备/video",
-    "shadowPageCommit.png",
-    "img/低点.png"
+    "Growth/Course/雅思/预备/video"
   ]
 }
