@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wisdom/健身功法.md",
+                "file": "Misso/摩尔三期/一阶段：1-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misso/摩缠/二和三.md",
+                "file": "Growth/摩尔缠论笔记精炼版本/基础缠论.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misso/摩缠/二和三.md",
+                "file": "Misso/摩尔三期/一阶段：1-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misso/摩缠/二和三.md",
+                "file": "Misso/摩尔三期/一阶段：1-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misso/摩缠/二和三.md"
+                "file": "Misso/摩尔三期/一阶段：1-3.md"
               }
             }
           },
@@ -217,7 +217,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,44 +233,46 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b6f6e00aeccddc1b",
+  "active": "27b5a18618bd49be",
   "lastOpenFiles": [
-    "img/屏幕截图 2023-11-20 101507.png",
-    "img/屏幕截图 2023-11-20 162500.png",
-    "img/屏幕截图 2023-11-20 144249.png",
+    "img/Pasted image 20231209225517.png",
+    "Misso/摩尔三期/本质走势中枢.md",
+    "Misso/摩尔三期/一阶段：1-3.md",
+    "img/Pasted image 20231209121017.png",
+    "Misso/摩尔三期/日线级别线段.md",
+    "Growth/Course/雅思/预备/词汇.md",
+    "Growth/摩尔缠论笔记精炼版本/基础缠论.md",
+    "img/Pasted image 20231208224145.png",
+    "img/Pasted image 20231208223202.png",
+    "img/Pasted image 20231208214632.png",
+    "img/Pasted image 20231208214439.png",
+    "Misso/摩缠/未命名.md",
+    "Growth/摩尔缠论笔记精炼版本",
     "Misso/摩缠/三阶段.md",
+    "Misso/摩缠/进攻买一和进攻买一扩展.md",
+    "Misso/摩缠/进攻二.md",
     "Misso/摩缠/二和三.md",
+    "Misso/摩尔视频笔记/线段中枢归一完整画法.md",
+    "Misso/摩缠/13.md",
+    "Misso/摩尔视频笔记/三进三防御.md",
+    "Misso/摩尔视频笔记/本质之线段中枢和转折.md",
+    "Misso/摩尔视频笔记/本质线段之中枢线.md",
+    "img/Pasted image 20231208212536.png",
+    "img/Pasted image 20231208205619.png",
+    "img/Pasted image 20231208194544.png",
+    "img/Pasted image 20231208194310.png",
+    "Wisdom/健身功法.md",
+    "img/Pasted image 20231208192818.png",
+    "InvestReview/prac/币安.md",
+    "Misso/摩尔三期",
+    "Wisdom/针灸/针灸13.md",
+    "InvestReview/币安投资.md",
     "Wisdom/针灸/针灸06.md",
     "Wisdom/易经/第一天.md",
-    "Growth/Course/雅思/预备/词汇.md",
-    "Wisdom/健身功法.md",
-    "img/屏幕截图 2023-11-18 224051.png",
-    "img/屏幕截图 2023-11-18 222818.png",
-    "img/屏幕截图 2023-11-18 173028.png",
-    "img/屏幕截图 2023-11-18 170849.png",
-    "img/屏幕截图 2023-11-18 162313.png",
-    "Misso/摩缠/13.md",
-    "InvestReview/币安投资.md",
     "Wisdom/针灸/针灸篇02.md",
     "Wisdom/针灸/中穴天突穴.md",
     "Wisdom/针灸/针灸08.md",
     "Wisdom/针灸/针灸05.md",
-    "Wisdom/针灸/针灸04.md",
-    "Wisdom/针灸/未命名.md",
-    "Wisdom/针灸/任脉经穴篇.md",
-    "Wisdom/针灸/督脉经穴篇.md",
-    "Wisdom/针灸/针灸篇03.md",
-    "Wisdom/针灸/针灸07.md",
-    "InvestReview/note/11月7日.md",
-    "Misso/摩尔视频笔记/三进三防御.md",
-    "img/微信图片_20231105205728.jpg",
-    "img/微信图片_20231105203959.jpg",
-    "img/微信图片_20231105203758 1.jpg",
-    "Wisdom/针灸/针灸13.md",
-    "Wisdom/针灸/针灸12.md",
-    "Misso/摩尔视频笔记/本质之线段中枢和转折.md",
-    "Wisdom/针灸/针灸11.md",
-    "Wisdom/针灸/针灸10.md",
     "Wisdom/黄帝内经",
     "Wisdom/神农本草经",
     "Misso/摩尔视频笔记",
@@ -277,8 +280,6 @@
     "Misso/量价学",
     "Misso/筹码学",
     "Wisdom/针灸",
-    "Wisdom/天纪",
-    "Growth/Course/摩尔缠论",
-    "Growth/Course/雅思/预备/video"
+    "Wisdom/天纪"
   ]
 }
