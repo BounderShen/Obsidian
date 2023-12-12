@@ -25,31 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wisdom/易经/第一天.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e8c0097e05011ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Growth/Course/雅思/预备/词汇.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27b5a18618bd49be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misso/摩尔三期/一阶段：4-6.md",
+                "file": "Growth/Life.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misso/摩尔三期/一阶段：4-6.md",
+                "file": "Growth/Life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misso/摩尔三期/一阶段：4-6.md",
+                "file": "Growth/Life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misso/摩尔三期/一阶段：4-6.md"
+                "file": "Growth/Life.md"
               }
             }
           },
@@ -233,8 +209,31 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "27b5a18618bd49be",
+  "active": "d24e3acd92f01a95",
   "lastOpenFiles": [
+    "Growth/自我认知.md",
+    "Growth/运.md",
+    "Growth/思维导图.md",
+    "Growth/人生设计课程.md",
+    "Growth/Course/个人投资体系.md",
+    "Growth/Course/30-40.md",
+    "Growth/Course/108股票.md",
+    "Growth/Course/41-50.md",
+    "Wisdom/易经/第一天.md",
+    "Growth/Course/摩尔缠论/二次总结.md",
+    "Growth/Course/摩尔缠论/1 起手三式.md",
+    "Growth/Course/雅思/预备/词汇.md",
+    "Growth/Course/缠论/分型、笔、线段篇.md",
+    "Growth/Course/缠论/15-20.md",
+    "Growth/Course/缠论/1-10.md",
+    "Growth/张筱雨/微博.md",
+    "Growth/天堂论坛/开悟其实很简单.md",
+    "Growth/天堂论坛/灵草灵宠.md",
+    "Growth/摩尔缠论笔记精炼版本/基础缠论.md",
+    "Growth/白诗诗/周受资：高级人才的五个基本素养.md",
+    "Growth/白诗诗/触动.md",
+    "Misso/摩尔三期/一阶段：4-6.md",
+    "Dev/algo/day1.md",
     "img/Pasted image 20231212212351.png",
     "img/Pasted image 20231212211251.png",
     "img/Pasted image 20231212210525.png",
@@ -245,34 +244,11 @@
     "img/Pasted image 20231212154931.png",
     "img/Pasted image 20231212114839.png",
     "img/Pasted image 20231212113828.png",
-    "img/Pasted image 20231212101302.png",
     "Misso/摩尔三期/一阶段：1-3.md",
     "Misso/摩尔三期/日线级别线段.md",
-    "Misso/摩尔三期/一阶段：4-6.md",
-    "Growth/摩尔缠论笔记精炼版本/基础缠论.md",
     "Misso/摩尔三期/本质走势中枢.md",
-    "Growth/Course/雅思/预备/词汇.md",
-    "Misso/摩缠/未命名.md",
     "Growth/摩尔缠论笔记精炼版本",
-    "Misso/摩缠/三阶段.md",
-    "Misso/摩缠/进攻买一和进攻买一扩展.md",
-    "Misso/摩缠/进攻二.md",
-    "Misso/摩缠/二和三.md",
-    "Misso/摩尔视频笔记/线段中枢归一完整画法.md",
-    "Misso/摩缠/13.md",
-    "Misso/摩尔视频笔记/三进三防御.md",
-    "Misso/摩尔视频笔记/本质之线段中枢和转折.md",
-    "Misso/摩尔视频笔记/本质线段之中枢线.md",
-    "Wisdom/健身功法.md",
-    "InvestReview/prac/币安.md",
     "Misso/摩尔三期",
-    "Wisdom/针灸/针灸13.md",
-    "InvestReview/币安投资.md",
-    "Wisdom/针灸/针灸06.md",
-    "Wisdom/易经/第一天.md",
-    "Wisdom/针灸/针灸篇02.md",
-    "Wisdom/针灸/中穴天突穴.md",
-    "Wisdom/针灸/针灸08.md",
     "Wisdom/黄帝内经",
     "Wisdom/神农本草经",
     "Misso/摩尔视频笔记",
