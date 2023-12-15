@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "translucency": true,
-  "baseFontSize": 29
+  "baseFontSize": 29,
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "Sans Serif Collection",
+  "monospaceFontFamily": "Consolas"
 }
