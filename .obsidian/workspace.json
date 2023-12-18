@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misso/摩尔三期/一阶段：10-12.md",
+                "file": "Misso/摩尔三期/总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,12 +47,15 @@
             "id": "bd28efcb2cb10eb2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Misso/摩尔三期/一阶段：13-15.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misso/摩尔三期/一阶段：10-12.md",
+                "file": "Misso/摩尔三期/一阶段：1-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misso/摩尔三期/一阶段：10-12.md",
+                "file": "Misso/摩尔三期/一阶段：1-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misso/摩尔三期/一阶段：10-12.md"
+                "file": "Misso/摩尔三期/一阶段：1-3.md"
               }
             }
           },
@@ -217,23 +220,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "007323b740dba246",
+  "active": "b6f6e00aeccddc1b",
   "lastOpenFiles": [
+    "img/Pasted image 20231218184021.png",
+    "img/Pasted image 20231218182844.png",
+    "img/Pasted image 20231218172725.png",
+    "img/Pasted image 20231218171452.png",
+    "Misso/摩尔三期/总结.md",
+    "Misso/摩尔三期/一阶段：1-3.md",
+    "Misso/摩尔三期/一阶段：4-6.md",
+    "Misso/摩尔三期/一阶段：13-15.md",
+    "Misso/摩尔三期/一阶段：10-12.md",
+    "img/Pasted image 20231218114931.png",
+    "img/Pasted image 20231217223519.png",
+    "img/Pasted image 20231217222221.png",
+    "img/Pasted image 20231217183222.png",
+    "img/Pasted image 20231216225158.png",
     "img/Pasted image 20231215230326.png",
     "img/Pasted image 20231215215446.png",
-    "img/Pasted image 20231215213052.png",
-    "img/Pasted image 20231215212947.png",
-    "img/Pasted image 20231215161937.png",
-    "img/Pasted image 20231215161728.png",
     "Misso/摩尔三期/一阶段：7-9.md",
-    "Misso/摩尔三期/一阶段：10-12.md",
-    "img/Pasted image 20231215123345.png",
-    "img/Pasted image 20231215122520.png",
-    "img/Pasted image 20231215121210.png",
-    "img/Pasted image 20231215112345.png",
-    "img/Pasted image 20231215111528.png",
-    "Misso/摩尔三期/一阶段：4-6.md",
-    "Misso/摩尔三期/一阶段：1-3.md",
     "Wisdom/针灸/针灸06.md",
     "Growth/Life.md",
     "Growth/自我认知.md",
@@ -253,8 +258,6 @@
     "Growth/Course/缠论/1-10.md",
     "Growth/张筱雨/微博.md",
     "Growth/天堂论坛/开悟其实很简单.md",
-    "Growth/天堂论坛/灵草灵宠.md",
-    "Growth/摩尔缠论笔记精炼版本/基础缠论.md",
     "Growth/摩尔缠论笔记精炼版本",
     "Misso/摩尔三期",
     "Wisdom/黄帝内经",
