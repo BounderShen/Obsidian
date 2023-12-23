@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misso/摩尔三期/一阶段：1-3.md",
+                "file": "Misso/摩尔三期/一阶段：13-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misso/摩尔三期/一阶段：1-3.md",
+                "file": "Misso/摩尔三期/一阶段：13-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misso/摩尔三期/一阶段：1-3.md"
+                "file": "Misso/摩尔三期/一阶段：13-15.md"
               }
             }
           },
@@ -220,24 +221,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b6f6e00aeccddc1b",
+  "active": "bd28efcb2cb10eb2",
   "lastOpenFiles": [
-    "img/Pasted image 20231218184021.png",
-    "img/Pasted image 20231218182844.png",
-    "img/Pasted image 20231218172725.png",
-    "img/Pasted image 20231218171452.png",
-    "Misso/摩尔三期/总结.md",
-    "Misso/摩尔三期/一阶段：1-3.md",
-    "Misso/摩尔三期/一阶段：4-6.md",
+    "img/Pasted image 20231222151236.png",
+    "img/Pasted image 20231222150637.png",
+    "img/Pasted image 20231222132610.png",
+    "img/Pasted image 20231222125802.png",
     "Misso/摩尔三期/一阶段：13-15.md",
+    "img/Pasted image 20231221222051.png",
+    "img/Pasted image 20231221221043.png",
+    "img/Pasted image 20231221194731.png",
+    "img/Pasted image 20231221193305.png",
+    "img/Pasted image 20231221132145.png",
+    "img/Pasted image 20231221131007.png",
+    "Misso/摩尔三期/一阶段：1-3.md",
+    "img/Pasted image 20231218184021.png",
+    "Misso/摩尔三期/总结.md",
+    "Misso/摩尔三期/一阶段：4-6.md",
     "Misso/摩尔三期/一阶段：10-12.md",
-    "img/Pasted image 20231218114931.png",
-    "img/Pasted image 20231217223519.png",
-    "img/Pasted image 20231217222221.png",
-    "img/Pasted image 20231217183222.png",
-    "img/Pasted image 20231216225158.png",
-    "img/Pasted image 20231215230326.png",
-    "img/Pasted image 20231215215446.png",
     "Misso/摩尔三期/一阶段：7-9.md",
     "Wisdom/针灸/针灸06.md",
     "Growth/Life.md",
