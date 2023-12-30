@@ -1,8 +1,9 @@
 {
-  "accentColor": "",
+  "accentColor": "#6d6a95",
   "translucency": true,
   "baseFontSize": 29,
   "cssTheme": "Minimal",
   "interfaceFontFamily": "Sans Serif Collection",
-  "monospaceFontFamily": "Consolas"
+  "monospaceFontFamily": "Consolas",
+  "theme": "obsidian"
 }
