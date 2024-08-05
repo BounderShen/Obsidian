@@ -6,5 +6,7 @@
   "cm-editor-syntax-highlight-obsidian",
   "templater-obsidian",
   "obsidian-mind-map",
-  "obsidian-vimrc-support"
+  "obsidian-vimrc-support",
+  "obsidian-day-planner",
+  "dataview"
 ]

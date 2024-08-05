@@ -8,30 +8,46 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e744e0ef47aab1a1",
+            "id": "4a60e8af42eb06a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZeYu/摩尔缠论：进阶.md",
+                "file": "我思故我在/语录.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "cc4c84a7f912473c",
+            "id": "253497da670764fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InvestReview/币安投资.md",
+                "file": "我思故我在/摩尔三刷/二阶段：二.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9329becea9b68f82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我思故我在/虚拟/AI/机器学习.md",
+                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZeYu/摩尔缠论：进阶.md",
+                "file": "我思故我在/摩尔三刷/二阶段：二.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ZeYu/摩尔缠论：进阶.md",
+                "file": "我思故我在/摩尔三刷/二阶段：二.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ZeYu/摩尔缠论：进阶.md"
+                "file": "我思故我在/摩尔三刷/二阶段：二.md"
               }
             }
           },
@@ -176,14 +192,20 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "9675744243da2769",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,56 +217,56 @@
       "command-palette:打开命令面板": false,
       "random-note:开始漫游笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "e744e0ef47aab1a1",
+  "active": "253497da670764fc",
   "lastOpenFiles": [
-    "InvestReview/币安投资.md",
+    "我思故我在/摩尔三刷/三阶段.md",
+    "我思故我在/摩尔三刷/二阶段：二.md",
+    "img/Pasted image 20240803172247.png",
+    "img/Pasted image 20240803161420.png",
+    "img/Pasted image 20240802113844.png",
+    "img/Pasted image 20240802065403.png",
+    "img/Pasted image 20240802064805.png",
+    "img/Pasted image 20240801155332.png",
+    "img/Pasted image 20240801105157.png",
+    "我思故我在/摩尔三刷/一阶段：二.md",
+    "我思故我在/虚拟/AI/机器学习.md",
+    "我思故我在/虚拟/AI",
+    "我思故我在/虚拟",
+    "img/Pasted image 20240731124310.png",
+    "img/Pasted image 20240731124000.png",
+    "img/Pasted image 20240731112934.png",
+    "我思故我在/摩尔三刷/二阶段.md",
+    "我思故我在/旅游/旅游攻略.md",
+    "我思故我在/旅游",
+    "我思故我在/摩尔三刷/一阶段.md",
+    "我思故我在/语录.md",
+    "我思故我在/摩尔三刷",
     "InvestReview/prac/币安.md",
-    "日记/2024/五月份/2024-05-21.md",
+    "InvestReview/prac/虚拟币交易体系.md",
+    "我思故我在/修/实相.md",
+    "我思故我在/创业/顺天.md",
+    "我思故我在/修/实相",
+    "我思故我在/修/道德经.md",
+    "我思故我在/修/金刚经.md",
+    "我思故我在/创业/创业课程.md",
+    "我思故我在/投资.md",
+    "我思故我在/修",
+    "我思故我在/吐纳法.md",
+    "我思故我在/2024年/六月份/2024-06-04.md",
+    "我思故我在/写给米索的一封信.md",
+    "我思故我在/2024年/六月份/2024-06-05.md",
+    "我思故我在/2024年/六月份/2024-06-02.md",
+    "我思故我在/创业/销售.md",
     "ZeYu/摩尔缠论：进阶.md",
-    "日记/2024/五月份/未命名.md",
-    "Wisdom/针灸/针灸.md",
-    "日记/2024/五月份",
-    "日记/2024/1月/一月10日.md",
-    "img/屏幕截图 2024-04-16 153054.png",
-    "img/Snipaste_2024-04-22_15-29-03 1.png",
-    "img/Snipaste_2024-05-08_15-14-09.png",
-    "img/Snipaste_2024-05-08_09-30-45.png",
-    "img/Snipaste_2024-05-08_09-28-00.png",
-    "img/Snipaste_2024-05-13_20-28-36.png",
-    "img/Snipaste_2024-05-14_12-01-26.png",
-    "img/Snipaste_2024-05-14_11-41-57.png",
-    "img/Snipaste_2024-04-29_15-10-30.png",
-    "img/Snipaste_2024-04-29_11-18-57.png",
-    "ZeYu/摩尔三期/本质走势中枢.md",
-    "ZeYu/摩尔三期/二阶段：对本质中枢唯一的重新理解.md",
-    "ZeYu/摩尔三期/二阶段：八-九.md",
-    "ZeYu/摩尔三期/二阶段十：级别的唯一判定.md",
-    "Wisdom/黄帝内经/黄帝内径02.md",
-    "日记/交易日志/三月份/3月2日.md",
-    "日记/交易日志/三月份/3月1日.md",
-    "日记/交易日志/二月份/2月28日.md",
-    "日记/交易日志/三月份",
-    "日记/交易日志/二月份/2月26日.md",
-    "ZeYu/摩尔三期/二阶段：五-七.md",
-    "日记/交易日志/二月份",
-    "ZeYu/摩尔三期/二阶段：十四-十八.md",
-    "ZeYu/摩尔三期/二阶段：二-四.md",
-    "ZeYu/摩尔三期/一阶段：10-12.md",
-    "日记/智慧/一月份.md",
-    "日记/2024/个人.md",
-    "日记/2024/1月/一月十三日.md",
-    "日记/智慧",
-    "日记/交易日志/第一.md",
-    "日记/2024/1月/一月十四日.md",
-    "日记/交易日志",
-    "日记/交易日志",
-    "Wisdom/针灸/针灸13.md",
-    "日记/2024/1月",
-    "日记/2024",
-    "日记/2023",
-    "日记"
+    "ZeYu/摩尔视频笔记/本质线段之中枢线.md",
+    "ZeYu/摩尔三期/总结.md",
+    "我思故我在/2024年/六月份",
+    "我思故我在/创业",
+    "我思故我在/2024年/5月份",
+    "我思故我在/2024年"
   ]
 }
