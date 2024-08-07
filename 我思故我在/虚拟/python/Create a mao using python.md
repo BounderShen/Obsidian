@@ -12,3 +12,15 @@
 `qr_code = wifi_qrcode("clcoding",hidden=False,authentication_type="WPA",password="123445uii")`
 `qr_code_img = qr_code.make_image()`
 `qr_code_img.save("wifi_qr_code.png")`
+##### Password Authentication using python
+`import getpass`
+`database = {"clcoding": "79802","pythoncoding": "234"}`
+`username = input("Enter Your Username")`
+`password = getpass.getpass("Enter Your Password: ")`
+`for i in database.keys():`
+	`if username == i :`
+		`while password ！= database.get(i):`
+			 `password = getpass.getpass("Enter Your Password Again: ")`
+			`break`
+`print("Verified")`
+		

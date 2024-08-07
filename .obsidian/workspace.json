@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我思故我在/摩尔三刷/三阶段.md",
+                "file": "我思故我在/虚拟/python/Create a mao using python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我思故我在/摩尔三刷/三阶段.md",
+                "file": "我思故我在/虚拟/python/Create a mao using python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我思故我在/摩尔三刷/三阶段.md"
+                "file": "我思故我在/虚拟/python/Create a mao using python.md"
               }
             }
           },
@@ -234,11 +234,11 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "2d623d5cf0f18ee9",
+  "active": "253497da670764fc",
   "lastOpenFiles": [
+    "我思故我在/摩尔三刷/三阶段.md",
     "我思故我在/虚拟/python/Create a mao using python.md",
     "我思故我在/虚拟/AI/机器学习.md",
-    "我思故我在/摩尔三刷/三阶段.md",
     "我思故我在/虚拟/python",
     "我思故我在/摩尔三刷/二阶段：二.md",
     "img/Pasted image 20240803172247.png",
